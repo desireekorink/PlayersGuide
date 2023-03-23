@@ -1,41 +1,51 @@
 package PlayersGuidePackage.Files;
 
 public class TheMagicCannon {
-    static int crankNormal = 1;
-    static int countCrankNormal = 0;
+
     static int crankFire = 3;
     static int countCrankFire = 0;
     static int crankElectric = 5;
     static int countCrankElectric = 0;
 
+    public enum blastType {
+        Electric("\u001B[34m"),
+        Fire("\u001B[31m"),
+        Normal("\u001B[37m"),
+        Powerful("\u001B[35m");
+        private String color;
+
+        blastType(String color) {
+            this.color=color;
+        }
+        public String getColor() {
+            return color;
+        }
+    }
 
     public static void main(String[] args) {
         for (int crank = 1; crank <= 100; crank++) {
             String output = crank + ". ";
-            if (crank % crankNormal == 0) {
-                output += "Normal";
-                countCrankNormal++;
-                if (crank % crankFire == 0) {
-                    output += "Fire";
+            blastType blast = blastType.Normal;
+            if (crank % crankFire == 0) {
+                if(crank % crankElectric == 0) {
+                    blast = blastType.Powerful;
+                    countCrankElectric++;
+                }
+                else {
+                    blast = blastType.Fire;
                     countCrankFire++;
-                    if (crank % crankElectric == 0) {
-                        output += "Electric";
-                        countCrankElectric++;
-                        System.out.println(output);
-                    } else if (output == "NormalFire") {
-                        System.out.println("Fire");
-                    }
-                } else {
-                    System.out.println(output);
                 }
             }
+            else if (crank % crankElectric == 0) {
+                blast = blastType.Electric;
+                countCrankElectric++;
+            }
+
+            output += blast;
+            System.out.println(blast.getColor() + output);
         }
     }
 }
-
-
-
-
         /*
         A partial output of the desired program looks like this:
         1: Normal
