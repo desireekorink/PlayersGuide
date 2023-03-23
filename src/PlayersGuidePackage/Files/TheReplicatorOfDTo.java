@@ -3,31 +3,39 @@ package PlayersGuidePackage.Files;
 import java.util.Scanner;
 
 public class TheReplicatorOfDTo {
-    static int[] intArray = new int[5];
+    static int[] intArrayOne = new int[5];
+    static int[] intArrayTwo = new int[intArrayOne.length];
+
 
     public static void main(String[] args) {
         System.out.println("Place your first number in your array.");
         Scanner input = new Scanner(System.in);
         int askArrayNumber = input.nextInt();
-        intArray[0] = askArrayNumber;
+        intArrayOne[0] = askArrayNumber;
 
         System.out.println("Place your second number in your array.");
         askArrayNumber = input.nextInt();
-        intArray[1] = askArrayNumber;
+        intArrayOne[1] = askArrayNumber;
 
         System.out.println("Place your third number in your array.");
         askArrayNumber = input.nextInt();
-        intArray[2] = askArrayNumber;
+        intArrayOne[2] = askArrayNumber;
 
         System.out.println("Place your fourth number in your array.");
         askArrayNumber = input.nextInt();
-        intArray[3] = askArrayNumber;
+        intArrayOne[3] = askArrayNumber;
 
         System.out.println("Place your fifth number in your array.");
         askArrayNumber = input.nextInt();
-        intArray[4] = askArrayNumber;
-        for (int i = 0; i < intArray.length; i++)
-            System.out.println(intArray[i]);
+        intArrayOne[4] = askArrayNumber;
+
+        intArrayTwo = intArrayOne;
+
+        for (int i = 0; i < intArrayOne.length; i++)
+            System.out.println("Printing first Array: " + intArrayOne[i] );
+        System.out.print("\n");
+        for (int i = 0; i < intArrayTwo.length; i++)
+            System.out.println("Printing second Array: " + intArrayOne[i] );
     }
 
 
