@@ -2,37 +2,38 @@ package PlayersGuidePackage.Files;
 
 public class TheMagicCannon {
     static int crankNormal = 1;
+    static int countCrankNormal = 0;
     static int crankFire = 3;
+    static int countCrankFire = 0;
     static int crankElectric = 5;
+    static int countCrankElectric = 0;
 
 
     public static void main(String[] args) {
-        do {
-            for (crankNormal = 1; crankNormal <= 100; crankNormal++) {
-                if (crankNormal % 5 == 0) {
-                } else if (crankNormal % 3 == 0) {
+        for (int crank = 1; crank <= 100; crank++) {
+            String output = crank + ". ";
+            if (crank % crankNormal == 0) {
+                output += "Normal";
+                countCrankNormal++;
+                if (crank % crankFire == 0) {
+                    output += "Fire";
+                    countCrankFire++;
+                    if (crank % crankElectric == 0) {
+                        output += "Electric";
+                        countCrankElectric++;
+                        System.out.println(output);
+                    } else if (output == "NormalFire") {
+                        System.out.println("Fire");
+                    }
+                } else {
+                    System.out.println(output);
                 }
-
             }
-            for (crankFire = 3; crankFire <= 100; crankFire++) {
-                if (crankFire % 5 == 0) {
-                    continue;
-                } else if (crankFire > 100);
-                break;
-            }
-            for (crankElectric = 4; crankElectric <= 100; crankElectric++) {
-                System.out.println("Crank Electric: " + crankElectric);
-
-            }
-            System.out.println("Crank Normal: " + crankNormal);
-            System.out.println("Crank Fire: " + crankFire);
-            System.out.println("Crank Electric: " + crankElectric);
-
         }
-        while (crankNormal > 100 || crankFire > 100 || crankElectric > 100);
     }
-
 }
+
+
 
 
         /*
