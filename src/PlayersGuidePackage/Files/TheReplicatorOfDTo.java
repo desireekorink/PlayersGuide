@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class TheReplicatorOfDTo {
     static int[] intArrayOne = new int[5];
-    static int[] intArrayTwo = new int[intArrayOne.length];
-
 
     public static void main(String[] args) {
         System.out.println("Place your first number in your array.");
@@ -29,13 +27,11 @@ public class TheReplicatorOfDTo {
         askArrayNumber = input.nextInt();
         intArrayOne[4] = askArrayNumber;
 
-        intArrayTwo = intArrayOne;
+        int[] intArrayTwo = intArrayOne.clone();
 
-        for (int i = 0; i < intArrayOne.length; i++)
-            System.out.println("Printing first Array: " + intArrayOne[i] );
+        for (int i : intArrayOne) System.out.println("Printing first Array: " + i);
         System.out.print("\n");
-        for (int i = 0; i < intArrayTwo.length; i++)
-            System.out.println("Printing second Array: " + intArrayOne[i] );
+        for (int j : intArrayTwo) System.out.println("Printing second Array: " + j);
     }
 
 
