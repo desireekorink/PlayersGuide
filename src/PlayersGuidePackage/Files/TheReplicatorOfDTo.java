@@ -33,8 +33,6 @@ public class TheReplicatorOfDTo {
         System.out.print("\n");
         for (int j : intArrayTwo) System.out.println("Printing second Array: " + j);
     }
-
-
 }
 /*
 While searching an abandoned storage building containing strange code artifacts, you uncover the ancient Replicator of D’To.
