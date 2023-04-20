@@ -19,19 +19,19 @@ public class BossBattleHuntingTheManticore {
         int powerfulShot10 = 10;
 
         Scanner input = new Scanner(System.in);
-        int defenseCity;
+        //Renamed defenceCity to shotDistance
+        int shotDistance;
 
         do {
             System.out.println("The Manticore is attacking! " +
                     "\nWe can use the Magic Cannon to take down the Manticore, otherwhise, we will not survive!");
-            System.out.println("----------------------------------\n" +
-                    "STATUS: Round " + roundNumber + "\n" +
-                    "City: " + healthpointsCity + "/15 | Manticore: " + healthpointsManticore + "/10\n" +
-                    "Enter desired cannon range: ");
+            System.out.println(placeManticore);
+            //Refactored to getRoundInformation
+            getRoundInformation(healthpointsCity, healthpointsManticore, roundNumber);
 
-            defenseCity = input.nextInt();
-
-            for (int shot = 1; healthpointsCity > 0 && healthpointsManticore > 0; shot++) {
+            shotDistance = input.nextInt();
+            //replaced unused shot by roundNumber
+            for (roundNumber = 1; healthpointsCity > 0 && healthpointsManticore > 0; roundNumber++) {
                 int damage = 1;
                 boolean shot3 = roundNumber % powerfulShot3 == 0;
                 boolean shot5 = roundNumber % powerfulShot5 == 0;
@@ -44,36 +44,47 @@ public class BossBattleHuntingTheManticore {
                 } else {
                     damage = notPowerfulShot;
                 }
-                roundNumber++;
 
-                if (defenseCity == placeManticore) {
+
+                if (shotDistance == placeManticore) {
                     System.out.println("That round was a DIRECT HIT!");
                     healthpointsManticore = healthpointsManticore - damage;
-                } else if (defenseCity < placeManticore) {
+                    healthpointsCity--;
+                } else if (shotDistance < placeManticore) {
                     System.out.println("That round FELL SHORT of the target. Try again!");
                     healthpointsCity--;
 
-                } else if (defenseCity > placeManticore) {
+                } else if (shotDistance > placeManticore) {
                     System.out.println("That round OVERSHOT the target. Try again!");
                     healthpointsCity--;
 
                 }
-                System.out.println("----------------------------------\n" +
-                        "STATUS: Round " + roundNumber + "\n" +
-                        "City: " + healthpointsCity + "/15 | Manticore: " + healthpointsManticore + "/10\n" +
-                        "Enter desired cannon range: ");
-                defenseCity = input.nextInt();
+                getRoundInformation(healthpointsCity, healthpointsManticore, roundNumber);
+                shotDistance = input.nextInt();
             }
-            if (healthpointsManticore <= 0) {
+            if (healthpointsManticore < 1) {
                 System.out.println("The Manticore had fallen! We have won!");
-                break;
-            } else if (healthpointsCity <= 0) {
+            } else if (healthpointsCity < 1) {
                 System.out.println("The city is lost! How will we recover from this blow?");
-                break;
 
             }
         } while (healthpointsCity > 0 && healthpointsManticore > 0);
+        //moved outside the while loop
+        if (healthpointsManticore <= 0) {
+            System.out.println("The Manticore had fallen! We have won!");
+        } else if (healthpointsCity <=0) {
+            System.out.println("The city is lost! How will we recover from this blow?");
+
+        }
     }
+
+    private static void getRoundInformation(int healthpointsCity, int healthpointsManticore, int roundNumber) {
+        System.out.println("----------------------------------\n" +
+                "STATUS: Round " + roundNumber + "\n" +
+                "City: " + healthpointsCity + "/15 | Manticore: " + healthpointsManticore + "/10\n" +
+                "Enter desired cannon range: ");
+    }
+
 }
 
 /* A sample run of the program is shown below. The first player gets a chance to place the Manticore:
