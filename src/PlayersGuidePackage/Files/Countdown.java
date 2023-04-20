@@ -1,6 +1,6 @@
 package PlayersGuidePackage.Files;
 
-<<<<<<< HEAD
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -14,10 +14,7 @@ public class Countdown {
 
         }}
 
-=======
-public class Countdown {
 
-}
 /*
 Hint: try read a bit about ‘recursion’
 The Council of Freach has summoned you.
@@ -29,4 +26,3 @@ asks you to put your skill to the test and rewrite the following code, which cou
 for (int x = 10; x > 0; x--)
 System.out.println(x);
  */
->>>>>>> PlayersGuide/master
