@@ -6,13 +6,13 @@ public class TheLawsOfFreach {
     public static void main(String[] args) {
 
 
-    int[] array = { 4, 51, -7, 13, -99, 15, -8, 45, 90 };
-    int currentSmallest = MAX_VALUE; // Start higher than anything in the array.
+        int[] array = {4, 51, -7, 13, -99, 15, -8, 45, 90};
+        int currentSmallest = MAX_VALUE; // Start higher than anything in the array.
 
         for (int element : array) {
-        if (element < currentSmallest){
-        currentSmallest = element;
-        }
+            if (element < currentSmallest) {
+                currentSmallest = element;
+            }
         }
         System.out.println(currentSmallest);
 
@@ -24,7 +24,7 @@ public class TheLawsOfFreach {
         System.out.println(average);
 
     }
-    }
+}
 
 /*
 The town of Freach recently had an awful looping disaster.
