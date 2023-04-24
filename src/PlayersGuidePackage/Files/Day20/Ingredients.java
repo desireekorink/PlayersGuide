@@ -5,10 +5,10 @@ public enum Ingredients {
     SOUP,
     STEW,
     GUMBO,
-    MUSHROOMS,
+    MUSHROOM,
     CHICKEN,
-    CARROTS,
-    POTATOES,
+    CARROT,
+    POTATOE,
     SPICY,
     SALTY,
     SWEET
