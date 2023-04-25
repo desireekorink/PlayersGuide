@@ -5,8 +5,6 @@ import java.util.Scanner;
 import static PlayersGuidePackage.Files.FountainOfObjects.ArrowInformation.*;
 
 public class VinFletchersArrows {
-    static String[] arrowArray = new String[2];
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         informationBoardFletchers();
@@ -31,66 +29,16 @@ public class VinFletchersArrows {
             }
         }
 
-        boolean validArrowhead = false;
-        while (!validArrowhead) {
-            System.out.println("Which kind of Arrowhead do you want? I have these: \n" +
-                    "+--------------------------------------+ \n" +
-                    "|                                      | \n" +
-                    "|               ARROWHEADS             | \n" +
-                    "|             steel :  10 gold         | \n" +
-                    "|              wood :   3 gold         | \n" +
-                    "|          obsidian :   5 gold         | \n" +
-                    "|                                      | \n" +
-                    "+--------------------------------------+ \n");
-            String chooseArrowhead = input.nextLine();
+        chooseArrowhead(input);
+        chooseFletching(input);
+        double roundedValue = chooseShaft(input);
+        System.out.println("How many arrows do you want?");
+        totalCostAmountOfArrows(input, roundedValue);
+        System.out.println("Thank you for your purchase. See you again soon, Programmer");
+        System.exit(0);
+    }
 
-            if (chooseArrowhead.equals("steel")) {
-                System.out.println("The " + STEEL.getCost() + " gold will be added at the end.");
-                arrowArray[0] = chooseArrowhead;
-                validArrowhead = true;
-            } else if (chooseArrowhead.equals("wood")) {
-                System.out.println("The " + WOOD.getCost() + " gold will be added at the end.");
-                arrowArray[0] = chooseArrowhead;
-                validArrowhead = true;
-            } else if (chooseArrowhead.equals("obsidian")) {
-                System.out.println("The " + OBSIDIAN.getCost() + " gold will be added at the end.");
-                arrowArray[0] = chooseArrowhead;
-                validArrowhead = true;
-            } else {
-                System.out.println("I do not have that kind of arrowhead");
-
-            }
-        }
-        boolean validFletching = false;
-        while (!validFletching) {
-            System.out.println("Which kind of Fletching do you want? I have these: \n" +
-                    "+--------------------------------------+ \n" +
-                    "|                                      | \n" +
-                    "|               FLETCHING`             | \n" +
-                    "|           plastic :  10 gold         | \n" +
-                    "|             goose :   3 gold         | \n" +
-                    "|            turkey :   5 gold         | \n" +
-                    "|                                      | \n" +
-                    "+--------------------------------------+ \n");
-            String chooseFletching = input.nextLine();
-
-            if (chooseFletching.equals("plastic")) {
-                System.out.println("The " + PLASTIC.getCost() + " gold will be added at the end.");
-                arrowArray[1] = chooseFletching;
-                validFletching = true;
-            } else if (chooseFletching.equals("goose")) {
-                System.out.println("That's " + GOOSE.getCost() + " gold will be added at the end.");
-                arrowArray[1] = chooseFletching;
-                validFletching = true;
-            } else if (chooseFletching.equals("turkey")) {
-                System.out.println("The " + TURKEY.getCost() + " gold will be added at the end.");
-                arrowArray[1] = chooseFletching;
-                validFletching = true;
-            } else {
-                System.out.println("I do not have that kind of fletching");
-
-            }
-        }
+    private static double chooseShaft(Scanner input) {
         System.out.println("Last but not least: the Shaft. \n" +
                 "+--------------------------------------+ \n" +
                 "|                                      | \n" +
@@ -119,25 +67,96 @@ public class VinFletchersArrows {
                 System.out.println("I will not make a shaft that big. Choose something I can make.");
             }
         }
-        System.out.println("How many arrows do you want?");
-        totalCostAmountOfArrows(input, roundedValue);
+        return roundedValue;
+    }
+
+    static double[] arrowArray = new double[2];
+
+    private static void chooseArrowhead(Scanner input) {
+        boolean validArrowhead = false;
+        while (!validArrowhead) {
+            System.out.println("Which kind of Arrowhead do you want? I have these: \n" +
+                    "+--------------------------------------+ \n" +
+                    "|                                      | \n" +
+                    "|               ARROWHEADS             | \n" +
+                    "|             steel :  10 gold         | \n" +
+                    "|              wood :   3 gold         | \n" +
+                    "|          obsidian :   5 gold         | \n" +
+                    "|                                      | \n" +
+                    "+--------------------------------------+ \n");
+            String chooseArrowhead = input.nextLine();
+
+            if (chooseArrowhead.equals("steel")) {
+                System.out.println("The " + STEEL.getCost() + " gold will be added at the end.");
+                arrowArray[0] = STEEL.getCost();
+                validArrowhead = true;
+            } else if (chooseArrowhead.equals("wood")) {
+                System.out.println("The " + WOOD.getCost() + " gold will be added at the end.");
+                arrowArray[0] = WOOD.getCost();
+                validArrowhead = true;
+            } else if (chooseArrowhead.equals("obsidian")) {
+                System.out.println("The " + OBSIDIAN.getCost() + " gold will be added at the end.");
+                arrowArray[0] = OBSIDIAN.getCost();
+                validArrowhead = true;
+            } else {
+                System.out.println("I do not have that kind of arrowhead");
+
+            }
+        }
+    }
+
+    private static void chooseFletching(Scanner input) {
+        boolean validFletching = false;
+        while (!validFletching) {
+            System.out.println("Which kind of Fletching do you want? I have these: \n" +
+                    "+--------------------------------------+ \n" +
+                    "|                                      | \n" +
+                    "|               FLETCHING`             | \n" +
+                    "|           plastic :  10 gold         | \n" +
+                    "|             goose :   3 gold         | \n" +
+                    "|            turkey :   5 gold         | \n" +
+                    "|                                      | \n" +
+                    "+--------------------------------------+ \n");
+            String chooseFletching = input.nextLine();
+
+            if (chooseFletching.equals("plastic")) {
+                System.out.println("The " + PLASTIC.getCost() + " gold will be added at the end.");
+                arrowArray[1] = PLASTIC.getCost();
+                validFletching = true;
+            } else if (chooseFletching.equals("goose")) {
+                System.out.println("That's " + GOOSE.getCost() + " gold will be added at the end.");
+                arrowArray[1] = GOOSE.getCost();
+                validFletching = true;
+            } else if (chooseFletching.equals("turkey")) {
+                System.out.println("The " + TURKEY.getCost() + " gold will be added at the end.");
+                arrowArray[1] = TURKEY.getCost();
+                validFletching = true;
+            } else {
+                System.out.println("I do not have that kind of fletching");
+
+            }
+        }
     }
 
     private static void totalCostAmountOfArrows(Scanner input, double roundedValue) {
         //Parse String to Int Array
-        double[] multipleArrows = new double[arrowArray.length];
+        /* double[] multipleArrows = new double[arrowArray.length];
 
-        for (int i = 0; i < arrowArray.length; i++) {
+        for (double i = 0; i < arrowArray.length; i++) {
+            System.out.println(arrowArray[i]);
             multipleArrows[i] = Integer.parseInt(arrowArray[i]);
         }
+*/
 
+        double numArrows = input.nextDouble();
 
-        int numArrows = input.nextInt();
-        input.nextInt();
-        double resultOne = numArrows * multipleArrows[0];
-        double resultTwo = numArrows * multipleArrows[1];
-        double resultThree = numArrows * roundedValue;
-        System.out.println("That will be" + resultOne + resultTwo + resultThree);
+        double resultOne = (numArrows * arrowArray[0]);
+        System.out.println(resultOne);
+        double resultTwo = (numArrows * arrowArray[1]);
+        System.out.println(resultTwo);
+        double resultThree = (numArrows * roundedValue);
+        System.out.println(resultThree);
+        System.out.println("That will be " + (resultOne + resultTwo + resultThree) + " gold.");
 
     }
 

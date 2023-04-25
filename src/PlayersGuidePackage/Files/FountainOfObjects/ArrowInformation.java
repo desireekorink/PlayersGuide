@@ -8,13 +8,13 @@ public enum ArrowInformation {
     GOOSE(3),
     PLASTIC(10);
 
-    private final float cost;
+    private final double cost;
 
-    ArrowInformation(float cost) {
+    ArrowInformation(double cost) {
         this.cost = cost;
     }
 
-    public float getCost() {
+    public double getCost() {
         return cost;
     }
 }
