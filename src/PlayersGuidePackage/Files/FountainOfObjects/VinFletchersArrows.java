@@ -7,7 +7,7 @@ import static PlayersGuidePackage.Files.FountainOfObjects.ArrowInformation.*;
 public class VinFletchersArrows {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        informationBoardFletchers();
+        getInformationBoardFletchers();
         while (true) {
             System.out.println("Hello there, Programmer. Do you want to buy an arrow? yes or no?");
             String optOut = input.nextLine().toLowerCase();
@@ -29,16 +29,16 @@ public class VinFletchersArrows {
             }
         }
 
-        chooseArrowhead(input);
-        chooseFletching(input);
-        double roundedValue = chooseShaft(input);
+        getArrowhead(input);
+        getFletching(input);
+        double roundedValue = getShaft(input);
         System.out.println("How many arrows do you want?");
-        totalCostAmountOfArrows(input, roundedValue);
+        getTotalCostAmountOfArrows(input, roundedValue);
         System.out.println("Thank you for your purchase. See you again soon, Programmer");
         System.exit(0);
     }
 
-    private static double chooseShaft(Scanner input) {
+    private static double getShaft(Scanner input) {
         System.out.println("Last but not least: the Shaft. \n" +
                 "+--------------------------------------+ \n" +
                 "|                                      | \n" +
@@ -72,7 +72,7 @@ public class VinFletchersArrows {
 
     static double[] arrowArray = new double[2];
 
-    private static void chooseArrowhead(Scanner input) {
+    private static void getArrowhead(Scanner input) {
         boolean validArrowhead = false;
         while (!validArrowhead) {
             System.out.println("Which kind of Arrowhead do you want? I have these: \n" +
@@ -105,7 +105,7 @@ public class VinFletchersArrows {
         }
     }
 
-    private static void chooseFletching(Scanner input) {
+    private static void getFletching(Scanner input) {
         boolean validFletching = false;
         while (!validFletching) {
             System.out.println("Which kind of Fletching do you want? I have these: \n" +
@@ -138,7 +138,7 @@ public class VinFletchersArrows {
         }
     }
 
-    private static void totalCostAmountOfArrows(Scanner input, double roundedValue) {
+    private static void getTotalCostAmountOfArrows(Scanner input, double roundedValue) {
         //Parse String to Int Array
         /* double[] multipleArrows = new double[arrowArray.length];
 
@@ -161,7 +161,7 @@ public class VinFletchersArrows {
     }
 
 
-    private static void informationBoardFletchers() {
+    private static void getInformationBoardFletchers() {
         System.out.println(
                 "+--------------------------------------+ \n" +
                         "|         Welcome to Fletcher's        | \n" +
