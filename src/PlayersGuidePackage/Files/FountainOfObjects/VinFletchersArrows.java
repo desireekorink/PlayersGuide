@@ -8,6 +8,14 @@ public class VinFletchersArrows {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         getInformationBoardFletchers();
+        startFletchersArrows(input);
+        getPremadeArrows(input);
+
+        System.out.println("Thank you for your purchase. See you again soon, Programmer!");
+        System.exit(0);
+    }
+
+    private static void startFletchersArrows(Scanner input) {
         while (true) {
             System.out.println("Hello there, Programmer. Do you want to buy an arrow? yes or no?");
             String optOut = input.nextLine().toLowerCase();
@@ -28,25 +36,141 @@ public class VinFletchersArrows {
                 break;
             }
         }
+    }
 
-        getArrowhead(input);
-        getFletching(input);
-        double roundedValue = getShaft(input);
+    private static void getPremadeArrows(Scanner input) {
+        while (true) {
+            System.out.println(" +--------------------------------------+ \n" +
+                    " |                                      | \n" +
+                    " |             PREMADE ARROWS           | \n" +
+                    " |       ##########################     | \n" +
+                    " |      ELITE : 24 gold & 75 silver     | \n" +
+                    " |              steel, plastic & 95 cm  | \n" +
+                    " |   BEGINNER :  9 gold & 75 silver     | \n" +
+                    " |              wood, goose  & 75 cm    | \n" +
+                    " |   MARKSMAN : 24 gold & 75 silver     | \n" +
+                    " |              steel, goose & 65 cm    | \n" +
+                    " |                                      | \n" +
+                    " +--------------------------------------+  \n" +
+                    "\nDo you want to have a premade arrow? yes or no?");
+            String optOut = input.nextLine().toLowerCase();
+            boolean wantToBuy;
+
+            if (optOut.equals("no")) {
+                System.out.println("Okay, let's continue");
+                getArrowhead(input);
+                getFletching(input);
+                double roundedValue = getShaft(input);
+                System.out.println("How many arrows do you want?");
+                getTotalCostAmountOfArrows(input, roundedValue);
+                break;
+
+            } else if (optOut.equals("yes")) {
+                System.out.println("Great, which one?");
+                String whichOne = input.nextLine().toLowerCase();
+                if (whichOne.equals("elite")) {
+                    createEliteArrow();
+                    wantToBuy = true;
+
+                } else if (whichOne.equals("beginner")) {
+                    createBeginnersArrow();
+                    wantToBuy = true;
+
+                } else if (whichOne.equals("marksman")) {
+                    createMarksmanArrow();
+                    wantToBuy = true;
+
+                } else {
+                    wantToBuy = false;
+                }
+                if (wantToBuy) {
+                    break;
+                }
+            }
+        }
+    }
+
+    private static double createEliteArrow() {
+        Scanner input = new Scanner(System.in);
+
+        arrowArray[0] = STEEL.getCost();
+        arrowArray[1] = PLASTIC.getCost();
+        double roundedValue = 0;
+        for (double shaftLength = 95; shaftLength == 95; shaftLength += 0.05) {
+
+            roundedValue = Math.round(shaftLength * 100) / 100.0;
+        }
+        double eliteArrow = roundedValue + arrowArray[0] + arrowArray[1];
+
+        System.out.println(roundedValue + " for the shaft.");
+        System.out.println(arrowArray[0] + " for the arrowhead.");
+        System.out.println(arrowArray[1] + " for the fletching.");
+        System.out.println("That will cost " + eliteArrow + " gold.");
+
+        System.out.println("How many arrows do you want?");
+
+        getTotalCostAmountOfArrows(input, roundedValue);
+
+        return eliteArrow;
+    }
+
+    private static double createBeginnersArrow() {
+        Scanner input = new Scanner(System.in);
+
+        arrowArray[0] = STEEL.getCost();
+        arrowArray[1] = GOOSE.getCost();
+        double roundedValue = 0;
+        for (double shaftLength = 75; shaftLength == 75; shaftLength += 0.05) {
+
+            roundedValue = Math.round(shaftLength * 100) / 100.0;
+        }
+        double beginnersArrow = roundedValue + arrowArray[0] + arrowArray[1];
+
+        System.out.println(roundedValue + " for the shaft.");
+        System.out.println(arrowArray[0] + " for the arrowhead.");
+        System.out.println(arrowArray[1] + " for the fletching.");
+        System.out.println("That will cost " + beginnersArrow + " gold.");
+
         System.out.println("How many arrows do you want?");
         getTotalCostAmountOfArrows(input, roundedValue);
-        System.out.println("Thank you for your purchase. See you again soon, Programmer");
-        System.exit(0);
+
+        return beginnersArrow;
     }
+
+    private static double createMarksmanArrow() {
+        Scanner input = new Scanner(System.in);
+
+        arrowArray[0] = STEEL.getCost();
+        arrowArray[1] = GOOSE.getCost();
+        double roundedValue = 0;
+        for (double shaftLength = 65; shaftLength == 65; shaftLength += 0.05) {
+
+            roundedValue = Math.round(shaftLength * 100) / 100.0;
+        }
+        double marksmanArrow = roundedValue + arrowArray[0] + arrowArray[1];
+
+        System.out.println(roundedValue + " for the shaft.");
+        System.out.println(arrowArray[0] + " for the arrowhead.");
+        System.out.println(arrowArray[1] + " for the fletching.");
+        System.out.println("That will cost " + marksmanArrow + " gold.");
+
+        System.out.println("How many arrows do you want?");
+        getTotalCostAmountOfArrows(input, roundedValue);
+
+
+        return marksmanArrow;
+    }
+
 
     private static double getShaft(Scanner input) {
         System.out.println("Last but not least: the Shaft. \n" +
-                "+--------------------------------------+ \n" +
-                "|                                      | \n" +
-                "|                SHAFTS                | \n" +
-                "|      60 to 100 cm : 0.05 gold        | \n" +
-                "|                     per centimeter   | \n" +
-                "|                                      | \n" +
-                "+--------------------------------------+  \n" +
+                " +--------------------------------------+ \n" +
+                " |                                      | \n" +
+                " |                SHAFTS                | \n" +
+                " |      60 to 100 cm : 0.05 gold        | \n" +
+                " |                     per centimeter   | \n" +
+                " |                                      | \n" +
+                " +--------------------------------------+  \n" +
                 "Choose a shaft length to your liking.");
         boolean isValidLength = false;
         int chooseShaftLength;
@@ -70,20 +194,20 @@ public class VinFletchersArrows {
         return roundedValue;
     }
 
-    static double[] arrowArray = new double[2];
+    static double[] arrowArray = new double[3];
 
     private static void getArrowhead(Scanner input) {
         boolean validArrowhead = false;
         while (!validArrowhead) {
             System.out.println("Which kind of Arrowhead do you want? I have these: \n" +
-                    "+--------------------------------------+ \n" +
-                    "|                                      | \n" +
-                    "|               ARROWHEADS             | \n" +
-                    "|             steel :  10 gold         | \n" +
-                    "|              wood :   3 gold         | \n" +
-                    "|          obsidian :   5 gold         | \n" +
-                    "|                                      | \n" +
-                    "+--------------------------------------+ \n");
+                    " +--------------------------------------+ \n" +
+                    " |                                      | \n" +
+                    " |               ARROWHEADS             | \n" +
+                    " |             steel :  10 gold         | \n" +
+                    " |              wood :   3 gold         | \n" +
+                    " |          obsidian :   5 gold         | \n" +
+                    " |                                      | \n" +
+                    " +--------------------------------------+ \n");
             String chooseArrowhead = input.nextLine();
 
             if (chooseArrowhead.equals("steel")) {
@@ -109,14 +233,14 @@ public class VinFletchersArrows {
         boolean validFletching = false;
         while (!validFletching) {
             System.out.println("Which kind of Fletching do you want? I have these: \n" +
-                    "+--------------------------------------+ \n" +
-                    "|                                      | \n" +
-                    "|               FLETCHING`             | \n" +
-                    "|           plastic :  10 gold         | \n" +
-                    "|             goose :   3 gold         | \n" +
-                    "|            turkey :   5 gold         | \n" +
-                    "|                                      | \n" +
-                    "+--------------------------------------+ \n");
+                    " +--------------------------------------+ \n" +
+                    " |                                      | \n" +
+                    " |               FLETCHING`             | \n" +
+                    " |           plastic :  10 gold         | \n" +
+                    " |             goose :   3 gold         | \n" +
+                    " |            turkey :   5 gold         | \n" +
+                    " |                                      | \n" +
+                    " +--------------------------------------+ \n");
             String chooseFletching = input.nextLine();
 
             if (chooseFletching.equals("plastic")) {
@@ -139,53 +263,46 @@ public class VinFletchersArrows {
     }
 
     private static void getTotalCostAmountOfArrows(Scanner input, double roundedValue) {
-        //Parse String to Int Array
-        /* double[] multipleArrows = new double[arrowArray.length];
-
-        for (double i = 0; i < arrowArray.length; i++) {
-            System.out.println(arrowArray[i]);
-            multipleArrows[i] = Integer.parseInt(arrowArray[i]);
-        }
-*/
 
         double numArrows = input.nextDouble();
 
         double resultOne = (numArrows * arrowArray[0]);
-        System.out.println(resultOne);
+        System.out.println(resultOne + " for the arrowhead.");
         double resultTwo = (numArrows * arrowArray[1]);
-        System.out.println(resultTwo);
+        System.out.println(resultTwo + " for the fletching.");
         double resultThree = (numArrows * roundedValue);
-        System.out.println(resultThree);
-        System.out.println("That will be " + (resultOne + resultTwo + resultThree) + " gold.");
+        System.out.println(resultThree + " for the shaft.");
+        System.out.println("--------------");
 
+        System.out.println("That will be " + (resultOne + resultTwo + resultThree) + " gold total.");
     }
 
 
     private static void getInformationBoardFletchers() {
         System.out.println(
-                "+--------------------------------------+ \n" +
-                        "|         Welcome to Fletcher's        | \n" +
-                        "+--------------------------------------+ \n" +
-                        "+                                      + \n" +
-                        "|               ARROWHEADS             | \n" +
-                        "|             steel :  10 gold         | \n" +
-                        "|              wood :   3 gold         | \n" +
-                        "|          obsidian :   5 gold         | \n" +
-                        "|                                      | \n" +
-                        "+--------------------------------------+ \n" +
-                        "|                                      | \n" +
-                        "|              FLETCHING               | \n" +
-                        "|           plastic : 10 gold          | \n" +
-                        "|             goose :  3 gold          | \n" +
-                        "|            turkey :  5 gold          | \n" +
-                        "|                                      | \n" +
-                        "+--------------------------------------+ \n" +
-                        "|                                      | \n" +
-                        "|                SHAFTS                | \n" +
-                        "|      60 to 100 cm : 0.05 gold        | \n" +
-                        "|                     per centimeter   | \n" +
-                        "|                                      | \n" +
-                        "+--------------------------------------+ ");
+                " +--------------------------------------+ \n" +
+                        " |         Welcome to Fletcher's        | \n" +
+                        " +--------------------------------------+ \n" +
+                        " +                                      + \n" +
+                        " |               ARROWHEADS             | \n" +
+                        " |             steel :  10 gold         | \n" +
+                        " |              wood :   3 gold         | \n" +
+                        " |          obsidian :   5 gold         | \n" +
+                        " |                                      | \n" +
+                        " +--------------------------------------+ \n" +
+                        " |                                      | \n" +
+                        " |              FLETCHING               | \n" +
+                        " |           plastic : 10 gold          | \n" +
+                        " |             goose :  3 gold          | \n" +
+                        " |            turkey :  5 gold          | \n" +
+                        " |                                      | \n" +
+                        " +--------------------------------------+ \n" +
+                        " |                                      | \n" +
+                        " |                SHAFTS                | \n" +
+                        " |      60 to 100 cm : 0.05 gold        | \n" +
+                        " |                     per centimeter   | \n" +
+                        " |                                      | \n" +
+                        " +--------------------------------------+ ");
     }
 }
 /*
