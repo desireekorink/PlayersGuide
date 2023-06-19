@@ -28,16 +28,21 @@ public class LockedDoor {
         DoorState doorState = DoorState.LOCKED;
         int passcode = 1234;
 
-        while (!action.equals("exit")) {
+        do {
             System.out.println("The door is " + doorState + ". What do you want to do?");
             String userInput = action.nextLine();
+
+            if (userInput.equals("exit")) {
+                break;
+            }
+
             doorStateResult unlockResult = unlockDoor(userInput, action, passcode, doorState);
             passcode = unlockResult.getPasscode();
             doorState = unlockResult.getDoorState();
             doorState = openDoor(doorState, userInput);
             doorState = closeDoor(doorState, userInput);
             doorState = lockDoor(doorState, userInput);
-        }
+        } while (true);
 
     }
 
@@ -72,7 +77,7 @@ public class LockedDoor {
             action.nextLine(); // Consume the remaining newline character
 
             System.out.println("Passcode correct! \n" +
-                    "The door is now unlocked. \n");
+                    "The door is now unlocked.");
             doorState = DoorState.CLOSED;
             System.out.print("Do you want to renew the passcode? ");
             String response = action.next();
