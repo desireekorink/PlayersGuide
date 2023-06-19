@@ -15,7 +15,7 @@ public class SimulasSoup {
         String mushroom = MUSHROOM.name().toLowerCase();
         String chicken = CHICKEN.name().toLowerCase();
         String carrot = CARROT.name().toLowerCase();
-        String potatoe = POTATOE.name().toLowerCase();
+        String potato = POTATO.name().toLowerCase();
         String spicy = SPICY.name().toLowerCase();
         String salty = SALTY.name().toLowerCase();
         String sweet = SWEET.name().toLowerCase();
@@ -50,7 +50,7 @@ public class SimulasSoup {
         System.out.println("\nNow that we know what we are going to eat, what will be the main ingredient?");
 
         while (true) {
-            System.out.println("I have " + mushroom + ", " + chicken + ", " + carrot + " or " + potatoe + "? ");
+            System.out.println("I have " + mushroom + ", " + chicken + ", " + carrot + " or " + potato + "? ");
             String chooseSecondIngredient = input.next().toLowerCase();
             boolean isValidInput = false;
 
@@ -63,7 +63,7 @@ public class SimulasSoup {
             } else if (chooseSecondIngredient.equals("carrot")) {
                 solutionSecondChoice(chooseSecondIngredient);
                 isValidInput = true;
-            } else if (chooseSecondIngredient.equals("potatoe")) {
+            } else if (chooseSecondIngredient.equals("potato")) {
                 solutionSecondChoice(chooseSecondIngredient);
                 isValidInput = true;
             } else if (chooseSecondIngredient.equals("all")) {
@@ -78,7 +78,7 @@ public class SimulasSoup {
 
         System.out.println("\nNow that we have the recipe and ingredients, ");
         while (true) {
-            System.out.println("What seasoning do want? I can make it " + spicy + ", " + salty + " or " + sweet + ".");
+            System.out.println("What seasoning do you want? I can make it " + spicy + ", " + salty + " or " + sweet + ".");
             String chooseThirdIngredient = input.next().toLowerCase();
             boolean isValidInput = false;
 

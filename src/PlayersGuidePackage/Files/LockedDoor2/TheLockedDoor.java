@@ -1,8 +1,8 @@
-package PlayersGuidePackage.Files.LockedDoor;
+package PlayersGuidePackage.Files.LockedDoor2;
 
 import java.util.Scanner;
 
-import static PlayersGuidePackage.Files.LockedDoor.DoorState.*;
+import static PlayersGuidePackage.Files.LockedDoor2.DoorState.*;
 
 public class TheLockedDoor {
 

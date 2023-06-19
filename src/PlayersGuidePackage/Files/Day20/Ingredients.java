@@ -8,7 +8,7 @@ public enum Ingredients {
     MUSHROOM,
     CHICKEN,
     CARROT,
-    POTATOE,
+    POTATO,
     SPICY,
     SALTY,
     SWEET
