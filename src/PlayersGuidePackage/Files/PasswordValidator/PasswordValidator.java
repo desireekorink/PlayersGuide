@@ -1,5 +1,8 @@
 package PlayersGuidePackage.Files.PasswordValidator;
 
+import PlayersGuidePackage.Utils.Color;
+import PlayersGuidePackage.Utils.ValidationResult;
+
 import java.util.Scanner;
 
 public class PasswordValidator {
@@ -7,12 +10,12 @@ public class PasswordValidator {
     public static void main(String[] args) {
         //ophalen of password om te valideren
         Scanner input = new Scanner(System.in);
+        //validator instantiëren
+        PasswordValidator passwordValidator = new PasswordValidator();
         while (true) {
             System.out.println("Please enter password:");
             String password = input.nextLine();
             //String password = "ABCDEFGH";
-            //validator instantiëren
-            PasswordValidator passwordValidator = new PasswordValidator();
             //met validator password controleren, en teruggeven wat het resultaat is
             ValidationResult result = passwordValidator.validate(password);
             //resultaat printen
@@ -22,27 +25,27 @@ public class PasswordValidator {
 
     private ValidationResult validate(String password) {
         if (password.length() < 6) {
-            return new ValidationResult(false, "Password validation failed: is to short.");
+            return new ValidationResult(false, Color.RED_BOLD + "Password validation failed: is to short." + Color.RESET);
         }
         if (password.length() > 13) {
-            return new ValidationResult(false, "Password validation failed: is to long.");
+            return new ValidationResult(false, Color.RED_BOLD + "Password validation failed: is to long." + Color.RESET);
         }
         if (!containsUpperCase(password)) {
-            return new ValidationResult(false, "Password validation failed: does not contain a capital letter.");
+            return new ValidationResult(false, Color.RED_BOLD + "Password validation failed: does not contain a capital letter." + Color.RESET);
         }
         if (!containsLowerCase(password)) {
-            return new ValidationResult(false, "Password validation failed: does not contain a vowel or consonant.");
+            return new ValidationResult(false, Color.RED_BOLD + "Password validation failed: does not contain a vowel or consonant." + Color.RESET);
         }
         if (!containsDigit(password)) {
-            return new ValidationResult(false, "Password validation failed: does not contain a digit.");
+            return new ValidationResult(false, Color.RED_BOLD + "Password validation failed: does not contain a digit." + Color.RESET);
         }
         if (password.contains("T")) {
-            return new ValidationResult(false, "Password validation failed: contains a 'T'.");
+            return new ValidationResult(false, Color.RED_BOLD + "Password validation failed: contains a 'T'." + Color.RESET);
         }
         if (password.contains("&")) {
-            return new ValidationResult(false, "Password validation failed: contains an '&'.");
+            return new ValidationResult(false, Color.RED_BOLD + "Password validation failed: contains an '&'." + Color.RESET);
         }
-        return new ValidationResult(true, "Password validation successful.");
+        return new ValidationResult(true, Color.GREEN_BOLD + "Password validation successful." + Color.RESET);
     }
 
 
@@ -77,23 +80,6 @@ public class PasswordValidator {
 
 }
 
-class ValidationResult {
-    private boolean isValid;
-    private String message;
-
-    public ValidationResult(boolean isValid, String message) {
-        this.isValid = isValid;
-        this.message = message;
-    }
-
-    public boolean isValid() {
-        return isValid;
-    }
-
-    public String getMessage() {
-        return message;
-    }
-}
 /*
 ## Day 27 Challenge: The Password Validator
 The fifth and final pedestal describes a class that represents a concept more abstract than the first four:
