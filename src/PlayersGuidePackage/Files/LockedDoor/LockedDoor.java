@@ -80,7 +80,7 @@ public class LockedDoor {
                     "The door is now unlocked.");
             doorState = DoorState.CLOSED;
             System.out.print("Do you want to renew the passcode? ");
-            String response = action.next();
+            String response = action.nextLine();
 
             if (response.equals("yes")) {
                 System.out.println("What will be the new code?");
