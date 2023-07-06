@@ -7,9 +7,9 @@ import static PlayersGuidePackage.Files.FountainOfObjects.ArrowInformation.*;
 public class VinFletchersArrows {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        getInformationBoardFletchers();
+        printInformationBoardFletchers();
         startFletchersArrows(input);
-        getPremadeArrows(input);
+        printPremadeArrows(input);
 
         System.out.println("Thank you for your purchase. See you again soon, Programmer!");
         System.exit(0);
@@ -38,7 +38,7 @@ public class VinFletchersArrows {
         }
     }
 
-    private static void getPremadeArrows(Scanner input) {
+    private static void printPremadeArrows(Scanner input) {
         while (true) {
             System.out.println(" +--------------------------------------+ \n" +
                     " |                                      | \n" +
@@ -58,11 +58,11 @@ public class VinFletchersArrows {
 
             if (optOut.equals("no")) {
                 System.out.println("Okay, let's continue");
-                getArrowhead(input);
-                getFletching(input);
-                double roundedValue = getShaft(input);
+                printArrowhead(input);
+                printFletching(input);
+                double roundedValue = printShaft(input);
                 System.out.println("How many arrows do you want?");
-                getTotalCostAmountOfArrows(input, roundedValue);
+                printTotalCostAmountOfArrows(input, roundedValue);
                 break;
 
             } else if (optOut.equals("yes")) {
@@ -109,7 +109,7 @@ public class VinFletchersArrows {
 
         System.out.println("How many arrows do you want?");
 
-        getTotalCostAmountOfArrows(input, roundedValue);
+        printTotalCostAmountOfArrows(input, roundedValue);
 
         return eliteArrow;
     }
@@ -132,7 +132,7 @@ public class VinFletchersArrows {
         System.out.println("That will cost " + beginnersArrow + " gold.");
 
         System.out.println("How many arrows do you want?");
-        getTotalCostAmountOfArrows(input, roundedValue);
+        printTotalCostAmountOfArrows(input, roundedValue);
 
         return beginnersArrow;
     }
@@ -155,14 +155,14 @@ public class VinFletchersArrows {
         System.out.println("That will cost " + marksmanArrow + " gold.");
 
         System.out.println("How many arrows do you want?");
-        getTotalCostAmountOfArrows(input, roundedValue);
+        printTotalCostAmountOfArrows(input, roundedValue);
 
 
         return marksmanArrow;
     }
 
 
-    private static double getShaft(Scanner input) {
+    private static double printShaft(Scanner input) {
         System.out.println("Last but not least: the Shaft. \n" +
                 " +--------------------------------------+ \n" +
                 " |                                      | \n" +
@@ -196,7 +196,7 @@ public class VinFletchersArrows {
 
     static double[] arrowArray = new double[3];
 
-    private static void getArrowhead(Scanner input) {
+    private static void printArrowhead(Scanner input) {
         boolean validArrowhead = false;
         while (!validArrowhead) {
             System.out.println("Which kind of Arrowhead do you want? I have these: \n" +
@@ -229,7 +229,7 @@ public class VinFletchersArrows {
         }
     }
 
-    private static void getFletching(Scanner input) {
+    private static void printFletching(Scanner input) {
         boolean validFletching = false;
         while (!validFletching) {
             System.out.println("Which kind of Fletching do you want? I have these: \n" +
@@ -262,7 +262,7 @@ public class VinFletchersArrows {
         }
     }
 
-    private static void getTotalCostAmountOfArrows(Scanner input, double roundedValue) {
+    private static void printTotalCostAmountOfArrows(Scanner input, double roundedValue) {
 
         double numArrows = input.nextDouble();
 
@@ -278,7 +278,7 @@ public class VinFletchersArrows {
     }
 
 
-    private static void getInformationBoardFletchers() {
+    private static void printInformationBoardFletchers() {
         System.out.println(
                 " +--------------------------------------+ \n" +
                         " |         Welcome to Fletcher's        | \n" +
