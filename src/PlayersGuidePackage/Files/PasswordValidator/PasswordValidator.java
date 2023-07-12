@@ -18,34 +18,39 @@ public class PasswordValidator {
             //String password = "ABCDEFGH";
             //met validator password controleren, en teruggeven wat het resultaat is
             ValidationResult result = passwordValidator.validate(password);
-            //resultaat printen
-            System.out.println(result.getMessage());
+            if (!result.isValid()) {
+                String errorMessage = Color.RED_BOLD + result.getMessage() + Color.RESET;
+                System.out.println(errorMessage);
+            } else {
+                String successMessage = Color.GREEN_BOLD + result.getMessage() + Color.RESET;
+                System.out.println(successMessage);
+            }
         }
     }
 
     private ValidationResult validate(String password) {
         if (password.length() < 6) {
-            return new ValidationResult(false, Color.RED_BOLD + "Password validation failed: is to short." + Color.RESET);
+            return new ValidationResult(false, "Password validation failed: is to short.");
         }
         if (password.length() > 13) {
-            return new ValidationResult(false, Color.RED_BOLD + "Password validation failed: is to long." + Color.RESET);
+            return new ValidationResult(false, "Password validation failed: is to long.");
         }
         if (!containsUpperCase(password)) {
-            return new ValidationResult(false, Color.RED_BOLD + "Password validation failed: does not contain a capital letter." + Color.RESET);
+            return new ValidationResult(false, "Password validation failed: does not contain a capital letter.");
         }
         if (!containsLowerCase(password)) {
-            return new ValidationResult(false, Color.RED_BOLD + "Password validation failed: does not contain a vowel or consonant." + Color.RESET);
+            return new ValidationResult(false, "Password validation failed: does not contain a vowel or consonant.");
         }
         if (!containsDigit(password)) {
-            return new ValidationResult(false, Color.RED_BOLD + "Password validation failed: does not contain a digit." + Color.RESET);
+            return new ValidationResult(false, "Password validation failed: does not contain a digit.");
         }
         if (password.contains("T")) {
-            return new ValidationResult(false, Color.RED_BOLD + "Password validation failed: contains a 'T'." + Color.RESET);
+            return new ValidationResult(false, "Password validation failed: contains a 'T'.");
         }
         if (password.contains("&")) {
-            return new ValidationResult(false, Color.RED_BOLD + "Password validation failed: contains an '&'." + Color.RESET);
+            return new ValidationResult(false, "Password validation failed: contains an '&'.");
         }
-        return new ValidationResult(true, Color.GREEN_BOLD + "Password validation successful." + Color.RESET);
+        return new ValidationResult(true, "Password validation successful.");
     }
 
 
@@ -76,7 +81,6 @@ public class PasswordValidator {
         }
         return false;
     }
-
 
 }
 

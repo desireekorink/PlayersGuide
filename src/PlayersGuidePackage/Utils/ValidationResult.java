@@ -2,7 +2,7 @@ package PlayersGuidePackage.Utils;
 
 public class ValidationResult {
     private boolean isValid;
-    private String message;
+    private static String message;
 
     public ValidationResult(boolean isValid, String message) {
         this.isValid = isValid;
@@ -13,7 +13,7 @@ public class ValidationResult {
         return isValid;
     }
 
-    public String getMessage() {
+    public static String getMessage() {
         return message;
     }
 }
