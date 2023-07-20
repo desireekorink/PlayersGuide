@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class PasswordValidator {
 
     public static void main(String[] args) {
-        //ophalen of password om te valideren
+        //ophalen of wachtwoord om goed te keuren
         Scanner input = new Scanner(System.in);
         //validator instantiëren
         PasswordValidator passwordValidator = new PasswordValidator();
@@ -16,7 +16,7 @@ public class PasswordValidator {
             System.out.println("Please enter password:");
             String password = input.nextLine();
             //String password = "ABCDEFGH";
-            //met validator password controleren, en teruggeven wat het resultaat is
+            //met validator wachtwoord controleren, en teruggeven wat het resultaat is
             ValidationResult result = passwordValidator.validate(password);
             if (!result.isValid()) {
                 String errorMessage = Color.RED_BOLD + result.getMessage() + Color.RESET;
