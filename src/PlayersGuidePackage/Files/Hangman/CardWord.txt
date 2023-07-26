@@ -1,0 +1,9 @@
+Class name: Word                                                            |
+----------------------------------------------------------------------------+
+must be able to select a word from a dictionary				            	| Dictionary
+must represent each letter as a _						                    |
+must represent each letter as upper/lowercase whatever the input will be	|
+must show only the Guessed letters				                    		| Guess
+when word = complete, game = won					                    	| WinOrLoseCondition
+----------------------------------------------------------------------------+
+

@@ -1,0 +1,7 @@
+Class name: WinOrLoseCondition                              |
+------------------------------------------------------------+
+When word = complete, game is won	                        | Word
+When guess = 0, game is lost		                        | Guess
+------------------------------------------------------------+
+When word != complete && guess != 0, continue game          |
+------------------------------------------------------------+

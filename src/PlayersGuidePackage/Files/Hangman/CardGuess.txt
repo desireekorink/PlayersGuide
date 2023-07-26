@@ -1,0 +1,12 @@
+Class name: Guess                                               |
+----------------------------------------------------------------+
+must start with max amount of guesses (10)                      |
+must -1 remaining guess when guessed letter is wrong            |
+must -1 remaining guess if anything else than a-z is guessed    |
+must show incorrect guessed letters after wrong guess           |
+guess may only be 1 char, not multiple			            	| Input
+When remaining guess = 0, game = lost		               		| WinOrLoseCondition
+----------------------------------------------------------------+
+
+
+
