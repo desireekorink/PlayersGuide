@@ -72,7 +72,7 @@ public class BossBattleHuntingTheManticore {
         //moved outside the while loop
         if (healthpointsManticore <= 0) {
             System.out.println("The Manticore had fallen! We have won!");
-        } else if (healthpointsCity <=0) {
+        } else if (healthpointsCity <= 0) {
             System.out.println("The city is lost! How will we recover from this blow?");
 
         }
@@ -103,7 +103,7 @@ Enter desired cannon range: 25
 That round FELL SHORT of the target.
 -----------------------------------------------------------
 STATUS: Round: 3 City:
-13/15 Manticore: 10/10T
+13/15 Manticore: 10/10
 The cannon is expected to deal 3 damage this round.
 Enter desired cannon range: 32
 That round was a DIRECT HIT!
@@ -126,7 +126,7 @@ That round was a DIRECT HIT!
 The Manticore has been destroyed! The city of Consolas has been saved!
 
 Objectives:•Establish the game’s starting state: the Manticore begins with 10 healthpoints and the city with 15.
-The game starts at round 1.•Ask the first player to choose the Manticore’s distance from the city (0 to100).
+The game starts at round 1.•Ask the first player to choose the Manticore’s distance from the city (0 to 100).
 Clear the screen afterward.•Run the game in a loop until either the Manticore’s or city’s health reaches 0.
 •Before the second player’s turn, display the round number, the city’s health, and the Manticore’s health.
 •Compute how much damage the cannon will deal this round: 10 points
