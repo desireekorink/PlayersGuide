@@ -2,5 +2,6 @@ Class name: Dictionary                  |
 ----------------------------------------+
 Must have multiple words	        	| Word
 Must select random word		        	| Random
-Must be reachable for Compiler          |
+(Must have meaning)                     |
+(Must have translation)                 |
 ----------------------------------------+
