@@ -16,14 +16,12 @@ public class BossBattle {
     private int round = 1;
 
     public BossBattle() {
-        input = new Scanner(System.in);
         // Game Sounds:
         soundPlayers = new ArrayList<>();
         soundPlayers.add(new Sounds.SoundPlayer("D:/JavaProjects/Itvitae/com/desiree/PlayersGuide/untitled/src/PlayersGuidePackage/Utils/Sounds/gameLost.wav"));
         soundPlayers.add(new Sounds.SoundPlayer("D:/JavaProjects/Itvitae/com/desiree/PlayersGuide/untitled/src/PlayersGuidePackage/Utils/Sounds/gameWon.wav"));
         soundPlayers.add(new Sounds.SoundPlayer("D:/JavaProjects/Itvitae/com/desiree/PlayersGuide/untitled/src/PlayersGuidePackage/Utils/Sounds/hardHit.wav"));
         soundPlayers.add(new Sounds.SoundPlayer("D:/JavaProjects/Itvitae/com/desiree/PlayersGuide/untitled/src/PlayersGuidePackage/Utils/Sounds/softHit.wav"));
-
     }
 
     public static void main(String[] args) throws UnsupportedAudioFileException {
@@ -31,16 +29,13 @@ public class BossBattle {
         // Create an instance of BossBattle
         BossBattle bossBattle = new BossBattle();
 
-        boolean gameOver = false;
-        //gameOver isn't false (it is true) because we are playing.
-        while (!gameOver) {
+        while (bossBattle.continueGame()) {
             bossBattle.damageEachRound(1, bossBattle.soundPlayers.get(3), bossBattle.soundPlayers.get(2));
-            gameOver = !bossBattle.continueGame();
         }
+
         Effect lostOrWon = bossBattle.winOrLose(soundPlayers.get(0), soundPlayers.get(1));
         System.out.println(lostOrWon.message);
-
-
+        lostOrWon.sound.play();
     }
 
     public void damageEachRound(int blast, Sounds.SoundPlayer softHit, Sounds.SoundPlayer hardHit) {
@@ -58,7 +53,6 @@ public class BossBattle {
             hitManticore.sound.play();
         }
     }
-    
 
     private int calculateBlast(int round) {
         boolean damage3 = round % 3 == 0;
@@ -74,7 +68,6 @@ public class BossBattle {
     }
 
     record Effect(String message, Sounds.SoundPlayer sound) {
-
     }
 
     private Effect didUserInputHit(int userInput, int distance, int blast, Sounds.SoundPlayer softHit, Sounds.SoundPlayer hardHit) {
@@ -107,7 +100,7 @@ public class BossBattle {
         System.out.println("----------------------------------\n" +
                 "STATUS: Round " + round + "\n" +
                 "City: " + consolasHealth + "/15 | Manticore: " + manticoreHealth + "/10");
-        if (consolasHealth > 0 && manticoreHealth > 0) {
+        if (continueGame()) {
             System.out.print("Enter the desired range: ");
         }
 
@@ -123,10 +116,6 @@ public class BossBattle {
 
 
     public boolean continueGame() {
-        //while exception to be inside the loop.
-        if (consolasHealth > 0 && manticoreHealth > 0) {
-            return true;
-        } else return false;
-
+        return (consolasHealth > 0 && manticoreHealth > 0);
     }
 }
