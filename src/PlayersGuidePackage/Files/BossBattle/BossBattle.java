@@ -9,7 +9,6 @@ import java.util.Scanner;
 public class BossBattle {
     static int manticoreHealth = 10;
     static int consolasHealth = 15;
-    private static final Scanner input = new Scanner(System.in);
     private int round = 1;
     private static final Sounds.SoundPlayer softHit =
             new Sounds.SoundPlayer("D:/JavaProjects/Itvitae/com/desiree/PlayersGuide/untitled/src/PlayersGuidePackage/Utils/Sounds/softHit.wav");
@@ -24,23 +23,26 @@ public class BossBattle {
         // Create an instance of BossBattle
         BossBattle bossBattle = new BossBattle();
 
+        // Create an instance of the Scanner
+        Scanner input = new Scanner(System.in);
+
         while (bossBattle.continueGame()) {
-            bossBattle.doRoundOfDamage();
+            bossBattle.printInfo();
+            int userInput = input.nextInt();
+            bossBattle.doRoundOfDamage(userInput);
         }
 
         Effect lostOrWon = bossBattle.winOrLose();
+        // prints Effect message from winOrlose() method.
         System.out.println(lostOrWon.message);
+        // creates a sound if you lose or win
         lostOrWon.sound.play();
     }
 
-    public void doRoundOfDamage() {
-        int distance = manticoreDistance.getDistance();
-
-        printInfo();
+    public void doRoundOfDamage(int userInput) {
         int blast = calculateBlast(round);
-        int userInput = input.nextInt();
 
-        Effect hitManticore = didUserInputHit(userInput, distance, blast);
+        Effect hitManticore = didUserInputHit(userInput, blast);
 
         System.out.println(hitManticore.message);
         hitManticore.sound.play();
@@ -63,7 +65,8 @@ public class BossBattle {
     record Effect(String message, Sounds.SoundPlayer sound) {
     }
 
-    private Effect didUserInputHit(int userInput, int distance, int blast) {
+    private Effect didUserInputHit(int userInput, int blast) {
+        int distance = manticoreDistance.getDistance();
         if (userInput < 0) {
             consolasHealth--;
             return new Effect("That round " + Color.MAGENTA_BOLD + "HIT OUR BASE!" + Color.RESET, softHit);
@@ -100,7 +103,7 @@ public class BossBattle {
     }
 
     public Effect winOrLose() {
-        // creates a sound if you lose or win
+        //Chooses Effect in instance of winning and losing
         if (consolasHealth <= 0) {
             return new Effect("Consolas has been destroyed! How can we recover from this blow?", gameLost);
         } else
