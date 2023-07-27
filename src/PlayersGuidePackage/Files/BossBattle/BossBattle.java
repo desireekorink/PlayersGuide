@@ -30,7 +30,7 @@ public class BossBattle {
         BossBattle bossBattle = new BossBattle();
 
         while (bossBattle.continueGame()) {
-            bossBattle.damageEachRound(1, bossBattle.soundPlayers.get(3), bossBattle.soundPlayers.get(2));
+            bossBattle.damageEachRound(bossBattle.soundPlayers.get(3), bossBattle.soundPlayers.get(2));
         }
 
         Effect lostOrWon = bossBattle.winOrLose(soundPlayers.get(0), soundPlayers.get(1));
@@ -38,12 +38,12 @@ public class BossBattle {
         lostOrWon.sound.play();
     }
 
-    public void damageEachRound(int blast, Sounds.SoundPlayer softHit, Sounds.SoundPlayer hardHit) {
+    public void damageEachRound(Sounds.SoundPlayer softHit, Sounds.SoundPlayer hardHit) {
         int distance = manticoreDistance.getDistance();
 
-        for (round = 1; manticoreHealth > 0 && consolasHealth > 0; round++) {
+        for (round = 1; continueGame(); round++) {
             printInfo();
-            blast = calculateBlast(round);
+            int blast = calculateBlast(round);
 
             int userInput = input.nextInt();
 
