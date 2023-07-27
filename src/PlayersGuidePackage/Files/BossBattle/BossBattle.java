@@ -4,54 +4,47 @@ import PlayersGuidePackage.Utils.Color;
 import PlayersGuidePackage.Utils.Sounds;
 
 import javax.sound.sampled.UnsupportedAudioFileException;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class BossBattle {
     static int manticoreHealth = 10;
     static int consolasHealth = 15;
-    private static List<Sounds.SoundPlayer> soundPlayers;
-    private static Scanner input = new Scanner(System.in);
+    private static final Scanner input = new Scanner(System.in);
     private int round = 1;
-
-    public BossBattle() {
-        // Game Sounds:
-        soundPlayers = new ArrayList<>();
-        soundPlayers.add(new Sounds.SoundPlayer("D:/JavaProjects/Itvitae/com/desiree/PlayersGuide/untitled/src/PlayersGuidePackage/Utils/Sounds/gameLost.wav"));
-        soundPlayers.add(new Sounds.SoundPlayer("D:/JavaProjects/Itvitae/com/desiree/PlayersGuide/untitled/src/PlayersGuidePackage/Utils/Sounds/gameWon.wav"));
-        soundPlayers.add(new Sounds.SoundPlayer("D:/JavaProjects/Itvitae/com/desiree/PlayersGuide/untitled/src/PlayersGuidePackage/Utils/Sounds/hardHit.wav"));
-        soundPlayers.add(new Sounds.SoundPlayer("D:/JavaProjects/Itvitae/com/desiree/PlayersGuide/untitled/src/PlayersGuidePackage/Utils/Sounds/softHit.wav"));
-    }
+    private static final Sounds.SoundPlayer softHit =
+            new Sounds.SoundPlayer("D:/JavaProjects/Itvitae/com/desiree/PlayersGuide/untitled/src/PlayersGuidePackage/Utils/Sounds/softHit.wav");
+    private static final Sounds.SoundPlayer hardHit =
+            new Sounds.SoundPlayer("D:/JavaProjects/Itvitae/com/desiree/PlayersGuide/untitled/src/PlayersGuidePackage/Utils/Sounds/hardHit.wav");
+    private static final Sounds.SoundPlayer gameWon =
+            new Sounds.SoundPlayer("D:/JavaProjects/Itvitae/com/desiree/PlayersGuide/untitled/src/PlayersGuidePackage/Utils/Sounds/gameWon.wav");
+    private static final Sounds.SoundPlayer gameLost =
+            new Sounds.SoundPlayer("D:/JavaProjects/Itvitae/com/desiree/PlayersGuide/untitled/src/PlayersGuidePackage/Utils/Sounds/gameLost.wav");
 
     public static void main(String[] args) throws UnsupportedAudioFileException {
-
         // Create an instance of BossBattle
         BossBattle bossBattle = new BossBattle();
 
         while (bossBattle.continueGame()) {
-            bossBattle.damageEachRound(bossBattle.soundPlayers.get(3), bossBattle.soundPlayers.get(2));
+            bossBattle.doRoundOfDamage();
         }
 
-        Effect lostOrWon = bossBattle.winOrLose(soundPlayers.get(0), soundPlayers.get(1));
+        Effect lostOrWon = bossBattle.winOrLose();
         System.out.println(lostOrWon.message);
         lostOrWon.sound.play();
     }
 
-    public void damageEachRound(Sounds.SoundPlayer softHit, Sounds.SoundPlayer hardHit) {
+    public void doRoundOfDamage() {
         int distance = manticoreDistance.getDistance();
 
-        for (round = 1; continueGame(); round++) {
-            printInfo();
-            int blast = calculateBlast(round);
+        printInfo();
+        int blast = calculateBlast(round);
+        int userInput = input.nextInt();
 
-            int userInput = input.nextInt();
+        Effect hitManticore = didUserInputHit(userInput, distance, blast);
 
-            Effect hitManticore = didUserInputHit(userInput, distance, blast, softHit, hardHit);
-
-            System.out.println(hitManticore.message);
-            hitManticore.sound.play();
-        }
+        System.out.println(hitManticore.message);
+        hitManticore.sound.play();
+        round++;
     }
 
     private int calculateBlast(int round) {
@@ -70,7 +63,7 @@ public class BossBattle {
     record Effect(String message, Sounds.SoundPlayer sound) {
     }
 
-    private Effect didUserInputHit(int userInput, int distance, int blast, Sounds.SoundPlayer softHit, Sounds.SoundPlayer hardHit) {
+    private Effect didUserInputHit(int userInput, int distance, int blast) {
         if (userInput < 0) {
             consolasHealth--;
             return new Effect("That round " + Color.MAGENTA_BOLD + "HIT OUR BASE!" + Color.RESET, softHit);
@@ -106,12 +99,12 @@ public class BossBattle {
 
     }
 
-    public Effect winOrLose(Sounds.SoundPlayer lost, Sounds.SoundPlayer win) {
+    public Effect winOrLose() {
         // creates a sound if you lose or win
         if (consolasHealth <= 0) {
-            return new Effect("Consolas has been destroyed! How can we recover from this blow?", lost);
+            return new Effect("Consolas has been destroyed! How can we recover from this blow?", gameLost);
         } else
-            return new Effect("The Manticore has been destroyed! The city of Consolas has been saved!", win);
+            return new Effect("The Manticore has been destroyed! The city of Consolas has been saved!", gameWon);
     }
 
 
