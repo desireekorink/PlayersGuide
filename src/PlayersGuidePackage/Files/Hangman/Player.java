@@ -1,6 +1,13 @@
 package PlayersGuidePackage.Files.Hangman;
 
+import java.util.Scanner;
+
 public class Player {
-    //Player guesses
-    //Can answer to play another game
+    Scanner input = new Scanner(System.in);
+
+    char getGuess() {
+        return input.next().charAt(0);
+        //Player guesses
+        //Can answer to play another game
+    }
 }

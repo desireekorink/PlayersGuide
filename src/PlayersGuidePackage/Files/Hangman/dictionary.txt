@@ -1104,446 +1104,1689 @@ Daughter
 Disappear
 Dead
 Disguised
-Daydream	Discover
-Deadly	Disgusted	Deacon	Discuss
-Deaf	Dishonored	Dealer	Display
-Debatable	Disruptive	Dean	Divide
-Decayed	Docile	Decade	Dole
-Decaying	Doomed	Deer	Don
-Decent	Dopey	Degree	Donate
-Decentralized	Doting	Delivery	Dose
-Decimated	Down	Democracy	Drag
-Declining	Downhill	Desert	Drain
-Decreasing	Dozen	Desk	Draw
-Decrepit	Drab	Device	Drin
-Dedicated	Drafty	Diabetes	Drive
-Deep	Drawn	Diagnosis	Drop
-Deepening	Dreamed	Dial	Duck
-Deeply	Dreary	Dialect	Dwell
-Defeated	Dressy	Dialogue	Dwindle
-Words that Start with E
-Eager	Encouraging	Enforced	Embargo
-Earn	Energetic	English	Embassy
-Ease	Engaged	Eager	Ember
-Easily	Engaging	Earnest	Enamel
-Easy	Enhanced	Eccentric	Eon
-Easygoing	Enough	Edgy	Equal
-Ecstasy	Enveloped	Educated	Equality
-Educate	Envious	Efficient	Era
-Effective	Erect	Egocentric	Eraser
-Efficiency	Erotic	Egotistical	Erection
-Efficient	Esoteric	Elderly	Eruption
-Effortless	Essential	Elegant	Estimate
-Elation	Established	Eligible	Etching
-Electrify	Etched	Elite	Ethic
-Elegance	Eternal	Embarrassed	Etiquette
-Elegant	Ethereal	Embittered	Evacuation
-Elevate	Evangelical	Emotional	Evasion
-Eloquent	Evaporated	Emotionless	Eve
-Embody	Evasive	Empty	Even
-Embrace	Everlasting	Enchanting	Exaggeration
-Emerge	Evocative	Encouraging	Exam
-Empathy	Excellent	Engaging	Examination
-Empower	Exotic	Enjoyable	Eye
-Enable	Exported	Enormous	Eyeball
-Enchant	Expressive	Enraged	Eyebrow
-Encourage	Extravagant	Enterprising
-Endearing	Extroverted	Entertaining	Eyelash
-Endorse	Earlier	Enthralling	Earn
-Endowment	Early	Enthusiastic	Eat
-Energetic	Envious	Eavesdrop
-Energy	Earthly	Equable	Ebb
-Engage	Earthy	Established	Echo
-Engaging	Eased	Ethical	Edify
-Enhance	East	Ethnic	Edit
-Enjoy	Eastern	European	Educate
-Enlightenment	Easy	Evasive	Effect
-Enliven	Ebony	Evil	Ejaculate
-Enrich	Economical	Exasperated	Eject
-Entertain	Edged	Exasperating	Elaborate
-Enthralled	Edgy	Exceptional	Elapse
-Enthusiast	Edible	Excessive	Elect
-Entranced	Edified	Excitable	Electrify
-Equal	Edited	Exciting	Elevate
-Equitable	Educated	Expectant	Elude
-Ethical	Eerie	Expected	Email
-Euphoria	Effected	Expendable	Embalm
-Excellent	Effective	Expert	Embark
-Exceptional	Efficient	Exploited	Embarrass
-Excited	Effortful	Exposed	Embed
-Expansive	Effortless	Expressionless	Embellish
-Expectant	Eight	Extraordinary	Embody
-Extra	Eighteen	Extreme	Embrace
-Eager	Eighth	Eagle	Emerge
-Earnest	Eighty	Ear	Emit
-Earsplitting	Elaborate	Earn	Enact
-Easy	Elapsed	Earring	Enclose
-Ebony	Elated	Echelon	Encounter
-Eccentric	Elder	Éclair	End
-Edible	Elected	Eden	Endanger
-Edifying	Elective	Edge	Endure
-Edited	Electrifying	Edible	Energize
-Eerie	Electronic	Editor	Enfold
-Egoistic	Elemental	Educator	Engage
-Elastic	Elementary	Eel	Enjoy
-Electric	Elevated	Effigy	Equal
-Elementary	Embattled	Egg	Equalize
-Elusive	Embossed	Ego	Equate
-Elusive	Empirical	Egret	Erase
-Eminent	Empty	Egyptian	Ere
-Emotional	Endangered	Eight	Err
-Empty	Ended	Eighteen	Escape
-Enabled	Endemic	Eighth	Espouse
-Enchanted	Endless	Elastic	Essay
-Enclosed	Endocrine	Elbow	Etch
-Encompassing	Endowed	Embankment	Even
-Words that Start with F
-Fabulous	First	Faceless	Flask
-Fair	Flammable	Fair	Foam
-Fairness	Flashy	Faithful	Fob
-Familiar	Flat	Faker	Foe
-Family	Flattering	FALSE	Fog
-Fan	Fluent	Famous	Foil
-Fantastic	Foggy	Fan	Forearm
-Fascinating	Foreign	Fanatical	Foreman
-Fashionable	Forked	Fancy	Fork
-Faultless	Frank	Fantastic	Fountain
-Favor	Fraternal	Farsighted	Fraction
-Favored	Fraudulent	Fastidious	Frame
-Favorite	Freaky	Fat	Franchise
-Feasible	Freezing	Father	Freezer
-Fertile	French	Fatigued	Freighter
-Festive	Fresh	Faultless	Frog
-Find	Frightened	Faulty	Frontiersman
-Fine	Frightening	Fearful	Frost
-Fit	Frigid	Fearless	Fruit
-Flawless	Frilly	Fearsome	Fuel
-Flexible	Frivolous	Feline	Fund
-Flirtatious	Frizzy	Feminine	Funeral
-Focus	Frustrating	Feminist	Fur
-Focused	Funny	Fetching	Furnace
-Fond	Furry	Fiendish	Furniture
-Fondly	Fabled	Fierce	Fuzz
-Fondness	Fabulous	Fiery	Fable
-Foremost	Factitious	Filthy	Fabricate
-Forgive	Factual	Fine	Fade
-Forgiving	Fade	Finicky	Fall
-Fortify	Faint	Fit	Falter
-Fortifying	Fearful	Flabby	Fancy
-Fortunate	Fearless	Flaccid	Fantasize
-Fortune	Feasible	Flashy	Fascinate
-Foxy	Featured	Flawless	Fasten
-Fraternity	Featureless	Flirtatious	Fatten
-Free	Federal	Flourishing	Feast
-Freed	Fibered	Flushed	Feature
-Freedom	Fictitious	Foiled	Feel
-Fresh	Flaccid	Foolish	Feign
-Fresher	Flagged	Forceful	Fence
-Freshness	Flaming	Forgiving	Ferry
-Friend	Flammable	Formidable	Fib
-Friendly	Flashy	Frank	Fiddle
-Friendship	Flat	Frantic	Fidget
-Fruitful	Fleeting	Free	Field
-Fun	Fleshly	French	Fight
-Funnier	Flimsy	Friendly	Fill
-Funniest	Flippant	Full	Filter
-Funny	Floating	Funky	Filter
-Factual	Flogging	Fussy	Finalize
-Faded	Floral	Fable	Find
-Faint	Florid	Fabric	Fine
-Fair	Flourishing	Face	Finger
-Faithful	Flowered	Fact	Finish
-Fake	Flowering	Fairy	Fish
-Fast	Flowing	Falcon	Flap
-Fat	Foggy	Fare	Flash
-Feared	Follow-up	Farm	Flatten
-Fearsome	Fractional	Farmer	Flavor
-Feeble	Fragile	Faucet	Flay
-Feigned	Fragmented	Fear	Flourish
-Feisty	Fragrant	Feat	Flush
-Feline	Franchise	Feather	Flutter
-Female	Frantic	Fence	Foam
-Feminine	Fraught	Fennel	Focus
-Feral	Freakish	Fib	Fraternize
-Ferocious	Free	Fiber	Fresh
-Few	Freezing	Fiction	Friend
-Fictional	Fried	Fiddle	Frisk
-Fidgety	Frigid	Field	Frown
-Fierce	Frisky	Finalist	Fuel
-Filthy	Frugal	Flag	Function
-Fine	Fruitful	Flagman	Fund
-Firm	Full	Flange	Furlough
-Words that Start with G
-Gain	Giddy	Gallant	Grain
-Galvanizing	Gifted	Gangly	Grease
-Gem	Giving	Gaping	Greek
-Generous	Glamorous	Gargantuan	Greenhouse
-Gentle	Glaring	Garish	Grief
-Gentleman	Glib	Garrulous	Grill
-Gentlemanly	Glistening	Gaseous	Grin
-Gently	Glittering	Gaudy	Gripe
-Genuine	Global	Gaunt	Grocer
-Genuinely	Gloomy	Geek	Grocery
-Gift	Glossy	Generic	Ground
-Gifted	Glum	Generous	Grout
-Giggle	Godly	Genial	Grub
-Giggling	Gray	Gentle	Grudge
-Give	Grey	Geriatric	Gruel
-Giver	Grimy	German	Grunt
-Giving	Groomed	Ghastly	Gryphon
-Glad	Gross	Giant	Guard
-Glee	Grouchy	Giddy	Guardian
-Glorify	Growling	Gifted	Guide
-Glorious	Gruff	Giggling	Gym
-Glory	Grumbling	Giving	Gymnasium
-God	Grumpy	Glad	Gymnast
-Goddess	Guiltless	Glamorous	Gypsy
-Gold	Gurgling	Glaring	Gyre
-Golden	Gain	Gleeful	Gab
-Good	Gained	Glib	Gag
-Goodness	Glum	Gain
-Grace	Gallant	Gluttonous	Gallop
-Grand	Galore	God-awful	Gamble
-Grateful	Gamy	Gold-digger	Gang
-Gratefully	Gaping	Good-natured	Garden
-Gratification	Geared	Goofy	Gargle
-Great	General	Gorgeous	Gather
-Greatest	Generative	Graceful	Gauge
-Greatness	Ghastly	Grateful	Gawk
-Greet	Giant	Gratified	Generalize
-Gregarious	Gibberish	Grating	Generate
-Grin	Ginger	Grave	Germinate
-Grinning	Glacial	Great	Gesticulate
-Grow	Gladly	Greatest	Gesture
-Guardian	Glaring	Gregarious	Get
-Guest	Glassy	Grim	Giggle
-Guide	Glowing	Grizzled	Give
-Guided	Gluey	Groggy	Glare
-Guiding	Gnarled	Gross	Glide
-Gumption	Gnostic	Gruff	Glimpse
-Gush	Golden	Guarded	Globalize
-Gusto	Graced	Guiltless	Glorify
-Gutsy	Graceful	Gutsy	Glove
-Gainful	Graceless	Garbage	Glow
-Gallant	Gracious	Gear	Glue
-Galling	Gradient	Gecko	Gnaw
-Gaping	Gradual	Geese	Go
-Garbled	Graduate	Gel	Gossip
-Gargantuan	Grain	Gem	Govern
-Garish	Grainy	Ghost	Grab
-Garrulous	Gram	Ghoul	Grade
-Gasping	Grand	Gin	Graduate
-Gaudy	Grandfatherly	Giraffe	Grant
-Gaunt	Greasy	Girl	Grasp
-Gauzy	Greek	Glacier	Gratify
-General	Green	Glade	Graze
-Generic	Greenery	Glare	Greet
-Generous	Greenish	Glass	Grieve
-Gentle	Gregorian	Glider	Grin
-Genuine	Grizzly	Glint	Grind
-Geographical	Grooved	Glory	Groan
-Geological	Grotesque	Gnat	Groom
-Geometrical	Groveling	Gnome	Grow
-Geriatric	Guarded	Gnu	Growl
-German	Guerrilla	Goose	Guarantee
-Ghostly	Guiding	Grabber	Guess
-Ghoulish	Grader	Gulp
-Giant	Gyrate	Grail	Guzzle
-Words that Start with H
-Hail	Hell	Habitual	Hide
-Hallmark	Hesitant	Haggard	Hieroglyph
-Hallow	Hideous	Hairless	Highwayman
-Halo	Highly	Hairy	Hill
-Handily	Hissing	Half	Hilt
-Handshake	Historic	Half-hearted	Hinge
-Handsome	Historical	Halting	Hippocampus
-Handsomely	Holier	Handsome	Hippopotamus
-Handy	Holistic	Handy	Hire
-Happy	Hollow	Hapless	Hispanic
-Harmonious	Homegrown	Happy	Hitch
-Harmonize	Honorable	Hard	Hitter
-Harmony	Hopefully	Hardworking	Hive
-Haven	Horrific	Hardy	Hoard
-Headway	Hostile	Harmful	Hoarder
-Heal	Huffy	Harmless	Hoax
-Health	Huge	Harmonic	Hob
-Healthy	Humiliating	Harried	Hockey
-Heart	Hung	Harsh	Hodgepodge
-Heartening	Hungriest	Hated	Hog
-Heartfelt	Hurried	Hateful	Hogwash
-Heaven	Hurrying	Haughty	Home
-Heavenly	Hurt	Heady	Huff
-Heedful	Hyperactive	Healthy	Hug
-Help	Hypnotic	Heartbroken	Hutch
-Helper	Habitual	Heartless	Hack
-Hero	Hack	Heated	Hail
-Heroic	Hackney	Heavenly	Hallucinate
-Heroine	Hail	Heavy	Halt
-High	Hefty	Handle
-Highly	Haired	Heinous	Hang
-Hilarious	Head	Helpful	Harass
-Hilarity	Headachy	Helpless	Harvest
-Hip	Headed	Her	Hasten
-Holy	Headless	Heroic	Haul
-Home	Headstrong	Hesitant	Haunt
-Honestly	Healable	Hideous	Have
-Honey	Healing	High	Head
-Honor	Healthy	Hindu	Headline
-Hooray	Heartbroken	His	Heal
-Hope	Heartfelt	Hoarse	Hear
-Hopeful	Heartless	Homeless	Heat
-Howdy	Heartsick	Homely	Heave
-Hug	Hearty	Honest	Heed
-Hugging	Hebrew	Hopeful	Help
-Humane	Heedful	Hopeless	Hem
-Humble	Heedless	Horizontal	Hide
-Hunk	Hefty	Hormonal	Hijack
-Hygiene	Hidden	Horrendous	Hike
-Hysterical	Hidebound	Horrible	Hinder
-Habitual	Hieratic	Habit	Hinderance
-Hairy	Hieroglyph	Head	Hire
-Half	High	Headache	Hit
-Hallowed	Hinder	Headpiece	Hold
-Halting	Hinged	Headroom	Homage
-Handmade	Hoarse	Headstone	Honk
-Handsomely	Hobbled	Health	Hood
-Hanging	Hobnailed	Heart	Hook
-Happily	Hogged	Heck	Hop
-Hardly	Holiday	Hedger	Hope
-Harmful	Holographic	Heel	Horrify
-Harsh	Holstered	Heft	Host
-Haste	Height	Hover
-Hastened	Homeless	Heir	Howl
-Hasty	Homely	Helicopter	Huddle
-Hated	Homeward	Helix	Hum
-Hateful	Hubby	Heller	Hunger
-Haunted	Hued	Hellhole	Hunt
-Hazardous	Hugger	Hello	Hurry
-Hazy	Humid	Help	Hurt
-Heartbroken	Humped	Helper	Husk
-Heartfelt	Hybrid	Herald	Hustle
-Heartsick	Hydraulic	Hero	Hydrate
-Heavenly	Hydric	Heroine	Hyphenate
-Heavier	Hysterical	Hiccup	Hypnotize
-Words that Start with I
-Iconic	Inconceivable	Icelandic	Incision
-Ideal	Incredible	Idiotic	Indecency
-Idealist	Indent	Ill-informed	Indention
-Idol	Independent	Immature	Independent
-Idyllic	Indigenous	Immodest	Inebriate
-Illustrious	Indigo	Impartial	Infamy
-Imaginative	Inexpensive	Impassive	Infancy
-Immaculate	Infamous	Impatient	Injury
-Immediate	Inferior	Impeachable	Ink
-Immense	Infernal	Impersonal	Inn
-Immerse	Informal	Impolite	Ionic
-Immune	Insane	Impolitic	Iota
-Immunity	Insolent	Imposing	Ire
-Impactful	Intangible	Impossible	Iris
-Impartial	Integral	Impoverished	Iron
-Impassioned	Interesting	Impractical	Ironwork
-Impeccable	Internal	Impressive	Irregular
-Important	Invisible	Impudent	Irrelevancy
-Impress	Irate	Impure	Italian
-Impressive	Ironclad	Inbred	Italic
-Improve	Ironic	Incensed	Itch
-Improvement	Irrelevant	Incisive	Item
-Include	Irritating	Incompatible	Itinerary
-Increase	Irritating	Inconsistent	Ivory
-Incredible	Itchy	Incredible	Ivy
-Independent	Idealistic	Indebted	Idealize
-Individual	Idealized	Indecent	Identify
-Indomitable	Identical	Indigenous	Idle
-Indulge	Identified	Indignant	Idolize
-Ineffable	Indisposed	Ignite
-Infallible	Ideological	Industrious	Ignore
-Infinite	Idle	Infantile	Illegitimatize
-Influential	Idolized	Inferior	Illuminate
-Ingenious	Illegal	Influential	Illustrate
-Initiative	Illiterate	Inhibited	Imagine
-Innocent	Illusional	Inoffensive	Imitate
-Innovation	Imaginary	Inspirational	Immerse
-Insight	Impressionable	Instinctive	Immigrate
-Insightful	Impressionist	Instructive	Immobilize
-Inspire	Imprisoned	Intellectual	Immortalize
-Integrate	Impromptu	Intense	Immunize
-Integrity	Improvised	Intent	Impair
-Intelligent	Impure	International	Impale
-Intimate	In	Intolerant	Impart
-Intoxicating	Inaccessible	Inventive	Imperialize
-Inventive	Inaccurate	Invincible	Impersonate
-Invigorate	Inactive	Irksome	Implant
-Invincible	Inadequate	Irritating	Implement
-Inviting	Inaudible	Isolated	Implicate
-Irresistible	Inaugural	Israeli	Implode
-Iconic	Inauspicious	Ice	Implore
-Icy	Indefensible	Iceberg	Imply
-Identical	Indescribable	Icicle	Import
-Idiotic	Indirect	Idea	Impose
-Ignorant	Indiscreet	Ideal	Impress
-Ill	Individual	Idealist	Improve
-Illegal	Indoor	Identification	Incarcerate
-Illogical	Ineligible	Identity	Inch
-Imaginary	Ingrained	Ideology	Incline
-Immoral	Inhabitable	Idiocy	Incline
-Immune	Inhabited	Idiom	Increase
-Impartial	Inheritable	Idiot	Indicate
-Impassible	Inherited	Idol	Indulge
-Impatient	Inhibited	Igloo	Infect
-Imperfect	Inhospitable	Ignition	Influence
-Imported	Inhuman	Illegal	Inform
-Impregnate	Initial	Illness	Inspire
-Impressive	Injectable	Image	Interrupt
-Improper	Injured	Imaginary	Intrude
-Imprudent	Inlaid	Inability	Invest
-Impulsive	Inland	Inaccuracy	Irk
-Inaudible	Inner	Inaction	Iron
-Incandescent	Innermost	Inactivity	Issue
-Inch	Innocent	Inadequacy	Itch
-Incomplete	Innovative	Inane	Itemize
-Words that Start with J
-Jackpot	Junior	Jubilant	Judge
-Jamboree	Junk	Judaist	Judgment
-Jamming	Junky	Judgmatical	Jug
-Jaunt	Just	Judgmental	Juggle
-Jaz	Juvenile	Jumpy	Juice
-Jazzy	Jade	Junior	Juke
-Jest	Jagged	Just	Jumble
-Jester	Jaggy	Justified	Jump
-Jesus	Jailed	Jute	Jump-start
-Jewel	Jamaican	Juvenile	Junk
-Jeweled	Jammed	Jackal	Just
-Jig	Jangling	Jackass	Justice
-Jingle	Jarring	Jacket	Justify
-Jocular	Jaunty	Jealousy	Jut
-Join	Jawed	Jeans	Juxtapose
-Joint	Jawless	Jeer	Jabbed
-Jointed	Jazzy	Jelly	Jabber
-Jointly	Jealous	Jellyfish	Jabbering
-Joke	Jeering	Jeopardy	Jabez
-Joker	Jellied	Jetty	Jacinto
-Joking	Jellylike	Jiffy	Jack
-Jolly	Jerking	Jig	Jackal
-Jovial	Jerky	Jilt	Jackals
-Jovially	Jesting	Jingle	Jackanapes
-Joy	Jet	Job	Jackass
-Joyful	Jetting	Jockey	Jackbooted
-Joyous	Jiggered	Jog	Jacket
-Joyously	Jihadi	Jogger	Jackets
-Joyride	Jilted	Join	Jackhammer
-Jubilant	Jingling	Joint	Jackie
-Jubilantly	Jinxed	Jolt	Jackknife
-Jubilate	Jittering	Jostle	Jackknives
-Jubilation	Jittery	Jot	Jack-o’-lantern
-Judicious	Jobless	Journal	Jackpot
-Judiciously	Jocular	Journalism	Jacks
-Juicy	Joined	Journalist	Jackson
-Jumbo	Joint	Journeyman	Jacksonville
-Just	Jointed	Jowl	Jacky
-Justified	Joking	Joy	Jacob
-Justify	Journalistic	Judge	Jacobean
-Jade	Joyous	Judger	Jacobi
-Jaded	Juiceless	Jug	Jacobin
+Daydream
+Discover
+Deadly
+Disgusted
+Deacon
+Discuss
+Deaf
+Dishonored
+Dealer
+Display
+Debatable
+Disruptive
+Dean
+Divide
+Decayed
+Docile
+Decade
+Dole
+Decaying
+Doomed
+Deer
+Don
+Decent
+Dopey
+Degree
+Donate
+Decentralized
+Doting
+Delivery
+Dose
+Decimated
+Down
+Democracy
+Drag
+Declining
+Downhill
+Desert
+Drain
+Decreasing
+Dozen
+Desk
+Draw
+Decrepit
+Drab
+Device
+Drin
+Dedicated
+Drafty
+Diabetes
+Drive
+Deep
+Drawn
+Diagnosis
+Drop
+Deepening
+Dreamed
+Dial
+Duck
+Deeply
+Dreary
+Dialect
+Dwell
+Defeated
+Dressy
+Dialogue
+Dwindle
+Eager
+Encouraging
+Enforced
+Embargo
+Earn
+Energetic
+English
+Embassy
+Ease
+Engaged
+Eager
+Ember
+Easily
+Engaging
+Earnest
+Enamel
+Easy
+Enhanced
+Eccentric
+Eon
+Easygoing
+Enough
+Edgy
+Equal
+Ecstasy
+Enveloped
+Educated
+Equality
+Educate
+Envious
+Efficient
+Era
+Effective
+Erect
+Egocentric
+Eraser
+Efficiency
+Erotic
+Egotistical
+Erection
+Efficient
+Esoteric
+Elderly
+Eruption
+Effortless
+Essential
+Elegant
+Estimate
+Elation
+Established
+Eligible
+Etching
+Electrify
+Etched
+Elite
+Ethic
+Elegance
+Eternal
+Embarrassed
+Etiquette
+Elegant
+Ethereal
+Embittered
+Evacuation
+Elevate
+Evangelical
+Emotional
+Evasion
+Eloquent
+Evaporated
+Emotionless
+Eve
+Embody
+Evasive
+Empty
+Even
+Embrace
+Everlasting
+Enchanting
+Exaggeration
+Emerge
+Evocative
+Encouraging	Exam
+Empathy
+Excellent
+Engaging
+Examination
+Empower
+Exotic
+Enjoyable
+Eye
+Enable
+Exported
+Enormous
+Eyeball
+Enchant
+Expressive
+Enraged
+Eyebrow
+Encourage
+Extravagant
+Enterprising
+Endearing
+Extroverted
+Entertaining
+Eyelash
+Endorse
+Earlier
+Enthralling
+Earn
+Endowment
+Early
+Enthusiastic
+Eat
+Energetic
+Envious
+Eavesdrop
+Energy
+Earthly
+Equable
+Ebb
+Engage
+Earthy
+Established
+Echo
+Engaging
+Eased
+Ethical
+Edify
+Enhance
+East
+Ethnic
+Edit
+Enjoy
+Eastern
+European
+Educate
+Enlightenment
+Easy
+Evasive
+Effect
+Enlive
+Ebony
+Evil
+Ejaculate
+Enrich
+Economical
+Exasperated
+Eject
+Entertain
+Edged
+Exasperating
+Elaborate
+Enthralled
+Edgy
+Exceptional
+Elapse
+Enthusiast
+Edible
+Excessive
+Elect
+Entranced
+Edified
+Excitable
+Electrify
+Equal
+Edited
+Exciting
+Elevate
+Equitable
+Educated
+Expectant
+Elude
+Ethical
+Eerie
+Expected
+Email
+Euphoria
+Effected
+Expendable
+Embalm
+Excellent
+Effective
+Expert
+Embark
+Exceptional
+Efficient
+Exploited
+Embarrass
+Excited
+Effortful
+Exposed
+Embed
+Expansive
+Effortless
+Expressionless
+Embellish
+Expectant
+Eight
+Extraordinary
+Embody
+Extra
+Eighteen
+Extreme
+Embrace
+Eager
+Eighth
+Eagle
+Emerge
+Earnest
+Eighty
+Ear
+Emit
+Earsplitting
+Elaborate
+Earn
+Enact
+Easy
+Elapsed
+Earring
+Enclose
+Ebony
+Elated
+Echelon
+Encounter
+Eccentric
+Elder
+Éclair
+End
+Edible
+Elected
+Eden
+Endanger
+Edifying
+Elective
+Edge
+Endure
+Edited
+Electrifying
+Edible
+Energize
+Eerie
+Electronic
+Editor
+Enfold
+Egoistic
+Elemental
+Educator
+Engage
+Elastic
+Elementary
+Eel
+Enjoy
+Electric
+Elevated
+Effigy
+Equal
+Elementary
+Embattled
+Egg
+Equalize
+Elusive
+Embossed
+Ego
+Equate
+Elusive
+Empirical
+Egret
+Erase
+Eminent
+Empty
+Egyptian
+Ere
+Emotional
+Endangered
+Eight
+Err
+Empty
+Ended
+Eighteen
+Escape
+Enabled
+Endemic
+Eighth
+Espouse
+Enchanted
+Endless
+Elastic
+Essay
+Enclosed
+Endocrine
+Elbow
+Etch
+Encompassing
+Endowed
+Embankment
+Even
+Fabulous
+First
+Faceless
+Flask
+Fair
+Flammable
+Fair
+Foam
+Fairness
+Flashy
+Faithful
+Fob
+Familiar
+Flat
+Faker
+Foe
+Family
+Flattering
+False
+Fog
+Fan
+Fluent
+Famous
+Foil
+Fantastic
+Foggy
+Fan
+Forearm
+Fascinating
+Foreign
+Fanatical
+Foreman
+Fashionable
+Forked
+Fancy
+Fork
+Faultless
+Frank
+Fantastic
+Fountain
+Favor
+Fraternal
+Farsighted
+Fraction
+Favored
+Fraudulent
+Fastidious
+Frame
+Favorite
+Freaky
+Fat
+Franchise
+Feasible
+Freezing
+Father
+Freezer
+Fertile
+French
+Fatigued
+Freighter
+Festive
+Fresh
+Faultless
+Frog
+Find
+Frightened
+Faulty
+Frontiersman
+Fine
+Frightening
+Fearful
+Frost
+Fit
+Frigid
+Fearless
+Fruit
+Flawless
+Frilly
+Fearsome
+Fuel
+Flexible
+Frivolous
+Feline
+Fund
+Flirtatious
+Frizzy
+Feminine
+Funeral
+Focus
+Frustrating
+Feminist
+Fur
+Focused
+Funny
+Fetching
+Furnace
+Fond
+Furry
+Fiendish
+Furniture
+Fondly
+Fabled
+Fierce
+Fuzz
+Fondness
+Fabulous
+Fiery
+Fable
+Foremost
+Factitious
+Filthy
+Fabricate
+Forgive
+Factual
+Fine
+Forgiving
+Fade
+Finicky
+Fall
+Fortify
+Faint
+Fit
+Falter
+Fortifying
+Fearful
+Flabby
+Fancy
+Fortunate
+Fearless
+Flaccid
+Fantasize
+Fortune
+Feasible
+Flashy
+Fascinate
+Foxy
+Featured
+Flawless
+Fasten
+Fraternity
+Featureless
+Flirtatious
+Fatten
+Free
+Federal
+Flourishing
+Feast
+Freed
+Fibered
+Flushed
+Feature
+Freedom
+Fictitious
+Foiled
+Feel
+Fresh
+Flaccid
+Foolish
+Feign
+Fresher
+Flagged
+Forceful
+Fence
+Freshness
+Flaming
+Forgiving
+Ferry
+Friend
+Flammable
+Formidable
+Fib
+Friendly
+Flashy
+Frank
+Fiddle
+Friendship
+Flat
+Frantic
+Fidget
+Fruitful
+Fleeting
+Free
+Field
+Fun
+Fleshly
+French
+Fight
+Funnier
+Flimsy
+Friendly
+Fill
+Funniest
+Flippant
+Full
+Filter
+Funny
+Floating
+Funky
+Filter
+Factual
+Flogging
+Fussy
+Finalize
+Faded
+Floral
+Fable
+Find
+Faint
+Florid
+Fabric
+Fine
+Fair
+Flourishing
+Face
+Finger
+Faithful
+Flowered
+Fact
+Finish
+Fake
+Flowering
+Fairy
+Fish
+Fast
+Flowing
+Falcon
+Flap
+Fat
+Foggy
+Fare
+Flash
+Feared
+Follow-up
+Farm
+Flatten
+Fearsome
+Fractional
+Farmer
+Flavor
+Feeble
+Fragile
+Faucet
+Flay
+Feigned
+Fragmented
+Fear
+Flourish
+Feisty
+Fragrant
+Feat
+Flush
+Feline
+Franchise
+Feather
+Flutter
+Female
+Frantic
+Fence
+Foam
+Feminine
+Fraught
+Fennel
+Focus
+Feral
+Freakish
+Fraternize
+Ferocious
+Free
+Fiber
+Fresh
+Few
+Freezing
+Fiction
+Friend
+Fictional
+Fried
+Fiddle
+Frisk
+Fidgety
+Frigid
+Field
+Frown
+Fierce
+Frisky
+Finalist
+Fuel
+Filthy
+Frugal
+Flag
+Function
+Fine
+Fruitful
+Flagman
+Fund
+Firm
+Full
+Flange
+Furlough
+Gain
+Giddy
+Gallant
+Grain
+Galvanizing
+Gifted
+Gangly
+Grease
+Gem
+Giving
+Gaping
+Greek
+Generous
+Glamorous
+Gargantuan
+Greenhouse
+Gentle
+Glaring
+Garish
+Grief
+Gentleman
+Glib
+Garrulous
+Grill
+Gentlemanly
+Glistening
+Gaseous
+Grin
+Gently
+Glittering
+Gaudy
+Gripe
+Genuine
+Global
+Gaunt
+Grocer
+Genuinely
+Gloomy
+Geek
+Grocery
+Gift
+Glossy
+Generic
+Ground
+Gifted
+Glum
+Generous
+Grout
+Giggle
+Godly
+Genial
+Grub
+Giggling
+Gray
+Gentle
+Grudge
+Give
+Grey
+Geriatric
+Gruel
+Giver
+Grimy
+German
+Grunt
+Giving
+Groomed
+Ghastly
+Gryphon
+Glad
+Gross
+Giant
+Guard
+Glee
+Grouchy
+Giddy
+Guardian
+Glorify
+Growling
+Gifted
+Guide
+Glorious
+Gruff
+Giggling
+Gym
+Glory
+Grumbling
+Giving
+Gymnasium
+God
+Grumpy
+Glad
+Gymnast
+Goddess
+Guiltless
+Glamorous
+Gypsy
+Gold
+Gurgling
+Glaring
+Gyre
+Golden
+Gain
+Gleeful
+Gab
+Good
+Gained
+Glib
+Gag
+Goodness
+Glum
+Gain
+Grace
+Gallant
+Gluttonous
+Gallop
+Grand
+Galore
+Gamble
+Grateful
+Gamy
+Gang
+Gratefully
+Gaping
+Garden
+Gratification
+Geared
+Goofy
+Gargle
+Great
+General
+Gorgeous
+Gather
+Greatest
+Generative
+Graceful
+Gauge
+Greatness
+Ghastly
+Grateful
+Gawk
+Greet
+Giant
+Gratified
+Generalize
+Gregarious
+Gibberish
+Grating
+Generate
+Grin
+Ginger
+Grave
+Germinate
+Grinning
+Glacial
+Great
+Gesticulate
+Grow
+Gladly
+Greatest
+Gesture
+Guardian
+Glaring
+Gregarious
+Get
+Guest
+Glassy
+Grim
+Giggle
+Guide
+Glowing
+Grizzled
+Give
+Guided
+Gluey
+Groggy
+Glare
+Guiding
+Gnarled
+Gross
+Glide
+Gumption
+Gnostic
+Gruff
+Glimpse
+Gush
+Golden
+Guarded
+Globalize
+Gusto
+Graced
+Guiltless
+Glorify
+Gutsy
+Graceful
+Gutsy
+Glove
+Gainful
+Graceless
+Garbage
+Glow
+Gallant
+Gracious
+Gear
+Glue
+Galling
+Gradient
+Gecko
+Gnaw
+Gaping
+Gradual
+Geese
+Garbled
+Graduate
+Gel
+Gossip
+Gargantuan
+Grain
+Gem
+Govern
+Garish
+Grainy
+Ghost
+Grab
+Garrulous
+Gram
+Ghoul
+Grade
+Gasping
+Grand
+Gin
+Graduate
+Gaudy
+Grandfatherly
+Giraffe
+Grant
+Gaunt
+Greasy
+Girl
+Grasp
+Gauzy
+Greek
+Glacier
+Gratify
+General
+Green
+Glade
+Graze
+Generic
+Greenery
+Glare
+Greet
+Generous
+Greenish
+Glass
+Grieve
+Gentle
+Gregorian
+Glider
+Grin
+Genuine
+Grizzly
+Glint
+Grind
+Geographical
+Grooved
+Glory
+Groan
+Geological
+Grotesque
+Gnat
+Groom
+Geometrical
+Groveling
+Gnome
+Grow
+Geriatric
+Guarded
+Gnu
+Growl
+German
+Guerrilla
+Goose
+Guarantee
+Ghostly
+Guiding
+Grabber
+Guess
+Ghoulish
+Grader
+Gulp
+Giant
+Gyrate
+Grail
+Guzzle
+Hail
+Hell
+Habitual
+Hide
+Hallmark
+Hesitant
+Haggard
+Hieroglyph
+Hallow
+Hideous
+Hairless
+Highwayman
+Halo
+Highly
+Hairy
+Hill
+Handily
+Hissing
+Half
+Hilt
+Handshake
+Historic
+Hinge
+Handsome
+Historical
+Halting
+Hippocampus
+Handsomely
+Holier
+Handsome
+Hippopotamus
+Handy
+Holistic
+Handy
+Hire
+Happy
+Hollow
+Hapless	Hispanic
+Harmonious
+Homegrown
+Happy
+Hitch
+Harmonize
+Honorable
+Hard
+Hitter
+Harmony
+Hopefully
+Hardworking
+Hive
+Haven
+Horrific
+Hardy
+Hoard
+Headway
+Hostile
+Harmful
+Hoarder
+Heal
+Huffy
+Harmless
+Hoax
+Huge
+Harmonic
+Hob
+Humiliating
+Harried
+Hockey
+Heart
+Hung
+Hodgepodge
+Heartening
+Hungriest
+Hated
+Hog
+Heartfelt
+Hurried
+Hateful
+Hogwash
+Heaven
+Hurrying
+Haughty
+Home
+Heavenly
+Heady
+Huff
+Heedful
+Hyperactive
+Help
+Hypnotic
+Heartbroken
+Hutch
+Helper
+Habitual
+Heartless
+Hack
+Heated
+Hackney
+Heavenly
+Hallucinate
+Heroine
+Heavy
+Halt
+Hefty
+Handle
+Haired
+Heinous
+Hang
+Hilarious
+Head
+Helpful
+Harass
+Hilarity
+Headachy
+Helpless
+Harvest
+Hip
+Headed
+Her
+Hasten
+Holy
+Headless
+Heroic
+Haul
+Home
+Headstrong
+Hesitant
+Haunt
+Honestly
+Healable
+Hideous
+Have
+Honey
+Healing
+Head
+Honor
+Healthy
+Hindu
+Headline
+Hooray
+His
+Heal
+Hope
+Hoarse
+Hear
+Hopeful
+Homeless
+Heat
+Howdy
+Heartsick
+Homely
+Heave
+Hug
+Hearty
+Honest
+Heed
+Hugging
+Hebrew
+Hopeful
+Help
+Humane
+Heedful
+Hopeless
+Hem
+Humble
+Heedless
+Horizontal
+Hide
+Hunk
+Hefty
+Hormonal
+Hijack
+Hygiene
+Hidden
+Horrendous
+Hike
+Hysterical
+Hidebound
+Horrible
+Hinder
+Habitual
+Hieratic
+Habit
+Hinderance
+Hairy
+Hieroglyph
+Head
+Hire
+Half
+High
+Headache
+Hit
+Hallowed
+Hinder
+Headpiece
+Hold
+Halting
+Hinged
+Headroom
+Homage
+Handmade
+Headstone
+Honk
+Handsomely
+Hobbled
+Health
+Hood
+Hanging
+Hobnailed
+Heart
+Hook
+Happily
+Hogged
+Heck
+Hop
+Hardly
+Holiday
+Hedger
+Hope
+Harmful
+Holographic
+Heel
+Horrify
+Harsh
+Holstered
+Heft
+Host
+Haste
+Height
+Hover
+Hastened
+Homeless
+Heir
+Howl
+Hasty
+Homely
+Helicopter
+Huddle
+Hated
+Homeward
+Helix
+Hum
+Hateful
+Hubby
+Heller
+Hunger
+Haunted
+Hued
+Hellhole
+Hunt
+Hazardous
+Hugger
+Hello
+Hurry
+Hazy
+Humid
+Help
+Hurt
+Humped
+Helper
+Husk
+Hybrid
+Herald
+Hustle
+Hydraulic
+Hero
+Hydrate
+Hydric
+Hyphenate
+Heavier
+Hysterical
+Hiccup
+Hypnotize
+Iconic
+Inconceivable
+Icelandic
+Incision
+Ideal
+Incredible
+Idiotic
+Indecency
+Idealist
+Indent
+Indention
+Idol
+Independent
+Immature
+Independent
+Idyllic
+Indigenous
+Immodest
+Inebriate
+Illustrious
+Indigo
+Impartial
+Infamy
+Imaginative
+Inexpensive
+Impassive
+Infancy
+Immaculate
+Infamous
+Impatient
+Injury
+Immediate
+Inferior
+Impeachable
+Ink
+Immense
+Infernal
+Impersonal
+Inn
+Immerse
+Informal
+Impolite
+Ionic
+Immune
+Insane
+Impolitic
+Iota
+Immunity
+Insolent
+Imposing
+Ire
+Impactful
+Intangible
+Impossible
+Iris
+Impartial
+Integral
+Impoverished
+Iron
+Impassioned
+Interesting
+Impractical
+Ironwork
+Impeccable
+Internal
+Impressive
+Irregular
+Important
+Invisible
+Impudent
+Irrelevancy
+Impress
+Irate
+Impure
+Italian
+Impressive
+Ironclad
+Inbred
+Italic
+Improve
+Ironic
+Incensed
+Itch
+Improvement
+Irrelevant
+Incisive
+Item
+Include
+Irritating
+Incompatible
+Itinerary
+Increase
+Irritating
+Inconsistent
+Ivory
+Incredible
+Itchy
+Incredible
+Ivy
+Independent
+Idealistic
+Indebted
+Idealize
+Individual
+Idealized
+Indecent
+Identify
+Indomitable
+Identical
+Indigenous
+Idle
+Indulge
+Identified
+Indignant
+Idolize
+Ineffable
+Indisposed
+Ignite
+Infallible
+Ideological
+Industrious
+Ignore
+Infinite
+Idle
+Infantile
+Illegitimatize
+Influential
+Idolized
+Inferior
+Illuminate
+Ingenious
+Illegal
+Influential
+Illustrate
+Initiative
+Illiterate
+Inhibited
+Imagine
+Innocent
+Illusional
+Inoffensive
+Imitate
+Innovation
+Imaginary
+Inspirational
+Immerse
+Insight
+Impressionable
+Instinctive
+Immigrate
+Insightful
+Impressionist
+Instructive
+Immobilize
+Inspire
+Imprisoned
+Intellectual
+Immortalize
+Integrate
+Impromptu
+Intense
+Immunize
+Integrity
+Improvised
+Intent
+Impair
+Intelligent
+Impure
+International
+Impale
+Intimate
+Intolerant
+Impart
+Intoxicating
+Inaccessible
+Inventive
+Imperialize
+Inventive
+Inaccurate
+Invincible
+Impersonate
+Invigorate
+Inactive
+Irksome
+Implant
+Invincible
+Inadequate
+Irritating
+Implement
+Inviting
+Inaudible
+Isolated
+Implicate
+Irresistible
+Inaugural
+Israeli
+Implode
+Iconic
+Inauspicious
+Ice
+Implore
+Icy
+Indefensible
+Iceberg
+Imply
+Identical
+Indescribable
+Icicle
+Import
+Idiotic
+Indirect
+Idea
+Impose
+Ignorant
+Indiscreet
+Ideal
+Impress
+Ill
+Individual
+Idealist
+Improve
+Illegal
+Indoor
+Identification
+Incarcerate
+Illogical
+Ineligible
+Identity
+Inch
+Imaginary
+Ingrained
+Ideology
+Incline
+Immoral
+Inhabitable
+Idiocy
+Incline
+Immune
+Inhabited
+Idiom
+Increase
+Impartial
+Inheritable
+Idiot
+Indicate
+Impassible
+Inherited
+Idol
+Indulge
+Impatient
+Inhibited
+Igloo
+Infect
+Inhospitable
+Ignition
+Influence
+Imported
+Inhuman
+Illegal
+Inform
+Impregnate
+Initial
+Illness
+Inspire
+Impressive
+Injectable
+Image
+Interrupt
+Improper
+Injured
+Imaginary
+Intrude
+Imprudent
+Inlaid
+Inability
+Invest
+Impulsive
+Inland
+Inaccuracy
+Irk
+Inaudible
+Inner
+Inaction
+Iron
+Incandescent
+Innermost
+Inactivity
+Issue
+Inch
+Innocent
+Inadequacy
+Itch
+Incomplete
+Innovative
+Inane
+Itemize
+Jackpot
+Jubilant
+Judge
+Jamboree
+Junk
+Judaist
+Judgment
+Jamming
+Junky
+Judgmatical
+Jug
+Jaunt
+Just
+Judgmental
+Juggle
+Jaz
+Juvenile
+Jumpy
+Juice
+Jazzy
+Jade
+Junior
+Juke
+Jest
+Jagged
+Just
+Jumble
+Jester
+Jaggy
+Justified
+Jump
+Jesus
+Jailed
+Jute
+Jewel
+Jamaican
+Juvenile
+Junk
+Jeweled
+Jammed
+Just
+Jig
+Jangling
+Justice
+Jingle
+Jarring
+Justify
+Jocular
+Jaunty
+Jealousy
+Jut
+Join
+Jawed
+Jeans
+Juxtapose
+Joint
+Jawless
+Jeer
+Jabbed
+Jointed
+Jazzy
+Jelly
+Jabber
+Jointly
+Jealous
+Jellyfish
+Jabbering
+Joke
+Jeering
+Jeopardy
+Jabez
+Joker
+Jellied
+Jetty
+Jacinto
+Joking
+Jellylike
+Jiffy
+Jack
+Jolly
+Jerking
+Jig
+Jackal
+Jovial
+Jerky
+Jilt
+Jackals
+Jovially
+Jesting
+Jingle
+Jackanapes
+Joy
+Jet
+Job
+Jackass
+Joyful
+Jetting
+Jockey
+Jackbooted
+Joyous
+Jiggered
+Jog
+Jacket
+Joyously
+Jihadi
+Jogger
+Joyride
+Jilted
+Join
+Jackhammer
+Jubilant
+Jingling
+Joint
+Jackie
+Jubilantly
+Jinxed
+Jolt
+Jackknife
+Jubilate
+Jittering
+Jostle
+Jackknives
+Jubilation
+Jittery
+Jot
+Judicious
+Jobless
+Journal
+Judiciously
+Jocular
+Journalism
+Jacks
+Juicy
+Joined
+Journalist
+Jackson
+Jumbo
+Joint
+Journeyman
+Jacksonville
+Just
+Jointed
+Jowl
+Jacky
+Justified
+Joking
+Joy
+Jacob
+Justify
+Journalistic
+Judge
+Jacobean
+Jade
+Joyous
+Judger
+Jacobi
+Jaded
+Juiceless
+Jug	Jacobin
 Jagged	Jurassic	Juggernaut	Jacobinism
 Jammed	Justificatory	Juggle	Jacobins
 Jamming	Juxtaposed	Juggler	Jacobite
@@ -1554,15 +2797,15 @@ Jealous	Jamaican	Jump	Jacopo
 Jelly	Janitor	Justice	Jacqueline
 Jeopardized	Japanese	Jab	Jacqueline’s
 Jerk	Jaunty	Jabber	Jacques
-Jerky	Jazzy	Jack	Jacques’
-Jesting	Jealous	Jail	Jacuzzi
+Jerky	Jazzy	Jacques’
+Jealous	Jail	Jacuzzi
 Jeweled	Jeering	Jam	Jaeger
 Jewish	Jerky	Jampack	Jael
-Jiggly	Jester	Jaunt	Jaffa
-Jilted	Jesting	Jeer	Jag
+Jiggly	Jaunt	Jaffa
+Jilted	Jeer	Jag
 Jinxed	Jesuit	Jeopardize	Jagged
 Jitter	Jew	Jerk	Jaggy
-Jittery	Jeweled	Jest	Jaguar
+Jittery	Jeweled	Jaguar
 Jobless	Jinxed	Jet	Jahre
 Jocular	Jittery	Jig	Jahren
 Jokester	Jobless	Jingle	Jail
@@ -1583,7 +2826,7 @@ Karma	Klutzy	Kafkaesque	Khan
 Keen	Kneaded	Kaput	Kick
 Keener	Kneecap	Karyokinetic	Kid
 Keenly	Kneed	Katari	Kidnapper
-Keenness	Knee-length	Kayoed	Kidney
+Keenness	Kayoed	Kidney
 Keep	Knifelike	Keeled	Killer
 Keeper	Knightly	Keen	Kite
 Keeping	Knitted	Kenyan	Knack
@@ -1597,7 +2840,7 @@ Kickass	Knotty	Killer	Knight
 Kickstart	Knowable	Kin	Knit
 Kid	Knowing	Kind	Knot
 Kiddie	Knowledgeable	Kinder	Knuckle
-Kidding	Known	Kind-hearted	Koala
+Kidding	Known	Koala
 Kiddingly	Knuckled	Kindly	Kraken
 Kind	Kooky	Kindred	Kremlin
 Kindliness	Korean	Kinesthetic	Kudos
@@ -1621,7 +2864,7 @@ Knight	Killer	Knobby	Kill
 Knighthood	Killing	Knocked-up	Kindle
 Knockout	Kin	Knockout	Kindled
 Know	Kind	Knowable	Kink
-Knowing	Kindhearted	Knowing	Kip
+Knowing	Knowing	Kip
 Knowingly	Kindled	Knowledgeable	Kiss
 Knowledge	Kindly	Known	Kissed
 Knowledgeably	Kindred	Kooky	Kisses
@@ -2667,8 +3910,7 @@ Wet	Wild-eyed	Wipe	Wanders
 Whiny	Willful	Wire	Wands
 Whispering	Willing	Wither	Wane
 White	Wily	Witness	Waned
-Whole	Winded	Wolf	Wanes
-Wholehearted	Winning	Work	Wang
+Whole	Winded	Wolf	Wanes	Winning	Work	Wang
 Wholesale	Wiser	Worm	Wangen
 Wide	Wistful	Worry	Waning
 Wild	Withdrawn	Worsen	Want
@@ -2692,7 +3934,7 @@ Wrong	Waif	Wafts	Warding
 Wrought	Wailer	Wag	Wardrobe
 Wry	Waist	Wage	Wardrobes
 Wacky	Wait	Wager	Wards
-Wailful	Waiter	Waging	Ware
+Waiter	Waging	Ware
 Waiting	Waitress	Wagon	Warehouse
 Wakeful	Waiver	Waif	Warehouses
 Wakeless	Wall	Wail	Wares
