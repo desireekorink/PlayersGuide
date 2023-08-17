@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class Player {
     Scanner input = new Scanner(System.in);
 
+    //Player guesses
     char getGuess() {
-        return input.next().charAt(0);
-        //Player guesses
-        //Can answer to play another game
+        return input.next().toLowerCase().charAt(0);
     }
 
-    public String chooseLanguage() {
+    //Can answer to play another game
+    public String getChoice() {
         return input.nextLine().toLowerCase();
     }
 }
