@@ -20,6 +20,6 @@ public class DutchReport extends Report {
                     "Je hebt verloren! Het woord was " + new String(game.word) + ".";
         }
         return "---------------------------------------------------------------------\n" +
-                "Je hebt Gewonnen! Het geraden woord was " + new String(game.word) + ".";
+                "Je hebt gewonnen! Het geraden woord was " + new String(game.word) + ".";
     }
 }
