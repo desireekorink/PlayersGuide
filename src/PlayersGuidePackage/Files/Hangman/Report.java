@@ -10,6 +10,7 @@ public abstract class Report {
     //show status
     public abstract String showReport();
 
-    public abstract String showEnd();
     //show end
+    public abstract String showEnd();
+
 }
