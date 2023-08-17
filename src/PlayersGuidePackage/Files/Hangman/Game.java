@@ -6,7 +6,6 @@ public class Game {
     //Keeps track of remaining lives.
     int lives = 10;
     String incorrectGuesses = "";
-    Player player;
 
     @Override
     public String toString() {
@@ -24,6 +23,12 @@ public class Game {
 
     //Keeps track of Guesses
     public void Guess(char guessedLetter) {
+
+        if (isAlreadyGuessed(guessedLetter)) {
+            return;
+        }
+
+        // Check if present
         boolean isPresent = false;
         //Find and replace guessed letter in result array
         for (int index = 0; index < word.length; index++) {
@@ -32,32 +37,13 @@ public class Game {
                 isPresent = true;
             }
         }
+
         //Process incorrect guess
         if (!isPresent) {
             incorrectGuesses += guessedLetter;
             lives--;
-            //Guessed Letter is already guessed
-//            if (checkForDuplicates().containsKey(guessedLetter)) {
-//                lives++;
-//            }
         }
     }
-
-//    public Map<Character, Integer> checkForDuplicates() {
-//        Map<Character, Integer> map = new HashMap<>();
-//        if (incorrectGuesses == null || incorrectGuesses.length() == 0) {
-//            return map;
-//        }
-//        for (char ch : incorrectGuesses.toCharArray()) {
-//            if (map.containsKey(ch)) {
-//                int counter = map.get(ch);
-//                map.put(ch, counter++);
-//            } else {
-//                map.put(ch, 1);
-//            }
-//        }
-//        return map;
-//    }
 
     public boolean isActive() {
         return lives > 0 && contains(result, '_');
@@ -70,5 +56,9 @@ public class Game {
             }
         }
         return false;
+    }
+
+    public boolean isAlreadyGuessed(char guessedLetter) {
+        return (contains(incorrectGuesses.toCharArray(), guessedLetter) || contains(result, guessedLetter));
     }
 }
