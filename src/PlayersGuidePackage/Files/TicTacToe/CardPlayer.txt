@@ -1,0 +1,2 @@
+Hierin moet zitten:
+- de functie dat de speler een input kan geven

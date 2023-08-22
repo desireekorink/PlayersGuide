@@ -1,0 +1,3 @@
+Hierin moet zitten:
+Deze laat de indeling van het huidige spel zien.
+Stelt vragen om opnieuw te spelen.

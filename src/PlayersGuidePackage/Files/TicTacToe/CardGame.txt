@@ -1,0 +1,2 @@
+Hierin moet zitten:
+-Functies om ergens een O of een X in te plaatsen
