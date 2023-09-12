@@ -21,19 +21,30 @@ public class Grid {
         return gameGrid.toString();
     }
 
-    private void fillGrid() {
+    public char[] fillGrid() {
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {
                 grid[i][j] = ' ';
             }
         }
+        return new char[i][j];
     }
 
     public Grid() {
         this.fillGrid();
     }
 
-    public void setValue(char c, int x, int y) {
-        grid[x][y] = c;
+    public Character setValue(char c, int i, int j) {
+        return grid[i][j] = c;
+    }
+
+    public boolean GridIsFull(boolean isFull){
+        isFull = false;
+        for (int i = 0; i < grid.length; i++) {
+            for (int j = 0; j < grid.length; j++) {
+                isFull = grid[i][j] != '\u0000';
+            }
+        }
+        return isFull;
     }
 }
