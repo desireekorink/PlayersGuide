@@ -2,26 +2,20 @@ package PlayersGuidePackage.Files.TicTacToe;
 
 public class TicTacToe {
     public static void main(String[] args) {
-        Game game = new Game();
-        Player player = new Player();
+
+
+        Player playerX = new Player("Player X", 'X');
+        Player playerO = new Player("Player O", 'O');
         Grid grid = new Grid();
+        grid.printGrid();
 
-        player.getPlayerX();
-        player.getPlayerO();
+        playerX.askNamePlayerX();
+        playerO.askNamePlayerO();
+        Game game = new Game();
 
-        while (grid.GridIsFull(false)){
-            player.getChoiceX();
-            System.out.println(grid.fillGrid());
-            player.getChoiceO();
-            System.out.println(grid.fillGrid());
+        while (!game.isGameOver()){
+            playerX.askPlayerChoice(grid);
+            playerO.askPlayerChoice(grid);
         }
-
-
-        grid.setValue('X', 1, 1);
-        grid.setValue('O', 0, 2);
-
-        System.out.println(grid.printGrid());
-
-
     }
 }
