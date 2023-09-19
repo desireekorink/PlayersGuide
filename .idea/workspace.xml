@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5393e18b-1c22-4345-8bdb-c19d91f5bb2a" name="Changes" comment="Made a template for both Player's (PlayerO.java and PlayerX.java),&#10;Added PlayerO.java,&#10;Added PlayerTemplate.java,&#10;Renamed Player to PlayerX.java and removed the boolean hasWon from the askChoicePlayerX.&#10;2023-09-19">
-      <change afterPath="$PROJECT_DIR$/src/PlayersGuidePackage/Files/TicTacToe/PlayerO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PlayersGuidePackage/Files/TicTacToe/PlayerTemplate.java" afterDir="false" />
+    <list default="true" id="5393e18b-1c22-4345-8bdb-c19d91f5bb2a" name="Changes" comment="Created a constructor for Game(),&#10;changed isWin('X')|| isWin('O') to use the getS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PlayersGuidePackage/Files/TicTacToe/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayersGuidePackage/Files/TicTacToe/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlayersGuidePackage/Files/TicTacToe/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayersGuidePackage/Files/TicTacToe/PlayerX.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PlayersGuidePackage/Files/TicTacToe/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayersGuidePackage/Files/TicTacToe/TicTacToe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,14 +94,24 @@
       <option name="project" value="LOCAL" />
       <updated>1694527325460</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Made a template for both Player's (PlayerO.java and PlayerX.java),&#10;Added PlayerO.java,&#10;Added PlayerTemplate.java,&#10;Removed Game game from PlayerX.java&#10;Renamed Player to PlayerX.java and removed the boolean hasWon from the askChoicePlayerX,&#10;askChoicePlayerX(Grid grid) changed from public boolean to public void,&#10;2023-09-19">
+      <option name="closed" value="true" />
+      <created>1695123571548</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695123571548</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Not done, edited player to TicTacToe.java" />
     <MESSAGE value="Made a template for both Player's (PlayerO.java and PlayerX.java),&#10;Added PlayerO.java,&#10;Added PlayerTemplate.java,&#10;Renamed Player to PlayerX.java and removed the boolean hasWon from the askChoicePlayerX" />
     <MESSAGE value="Made a template for both Player's (PlayerO.java and PlayerX.java),&#10;Added PlayerO.java,&#10;Added PlayerTemplate.java,&#10;Renamed Player to PlayerX.java and removed the boolean hasWon from the askChoicePlayerX.&#10;2023-09-19" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made a template for both Player's (PlayerO.java and PlayerX.java),&#10;Added PlayerO.java,&#10;Added PlayerTemplate.java,&#10;Renamed Player to PlayerX.java and removed the boolean hasWon from the askChoicePlayerX.&#10;2023-09-19" />
+    <MESSAGE value="Made a template for both Player's (PlayerO.java and PlayerX.java),&#10;Added PlayerO.java,&#10;Added PlayerTemplate.java,&#10;Removed Game game from PlayerX.java&#10;Renamed Player to PlayerX.java and removed the boolean hasWon from the askChoicePlayerX,&#10;askChoicePlayerX(Grid grid) changed from public boolean to public void,&#10;2023-09-19" />
+    <MESSAGE value="Made a template for both Player's (PlayerO.java and PlayerX.java),&#10;Added PlayerO.java,&#10;Added PlayerTemplate.java,&#10;Renamed Player to PlayerX.java and removed the boolean hasWon from the askChoicePlayerX,&#10;askChoicePlayerX(Grid grid) changed from public boolean to public void.&#10;2023-09-19" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made a template for both Player's (PlayerO.java and PlayerX.java),&#10;Added PlayerO.java,&#10;Added PlayerTemplate.java,&#10;Renamed Player to PlayerX.java and removed the boolean hasWon from the askChoicePlayerX,&#10;askChoicePlayerX(Grid grid) changed from public boolean to public void.&#10;2023-09-19" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -113,6 +120,16 @@
           <properties class="java.lang.StackOverflowError" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PlayersGuidePackage/Files/TicTacToe/Game.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PlayersGuidePackage/Files/TicTacToe/Game.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
