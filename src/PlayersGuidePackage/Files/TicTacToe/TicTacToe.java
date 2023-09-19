@@ -3,9 +3,8 @@ package PlayersGuidePackage.Files.TicTacToe;
 public class TicTacToe {
     public static void main(String[] args) {
 
-
-        Player playerX = new Player("Player X", 'X');
-        Player playerO = new Player("Player O", 'O');
+        PlayerX playerX = new PlayerX("Player X", 'X');
+        PlayerO playerO = new PlayerO("Player O", 'O');
         Grid grid = new Grid();
         grid.printGrid();
 
@@ -14,8 +13,10 @@ public class TicTacToe {
         Game game = new Game();
 
         while (!game.isGameOver()){
-            playerX.askPlayerChoice(grid);
-            playerO.askPlayerChoice(grid);
+            playerX.askChoicePlayerX(grid);
+            game.playerXHasWon();
+            playerO.askChoicePlayerO(grid);
+            game.playerOHasWon();
         }
     }
 }
